@@ -175,13 +175,13 @@ Mime-type: {}
     def ins_manifestazioni(request):
        
         tmp=env.get_template('inserimenti.html')
-        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), directory="/home/carlo/develop/myapp/static/manifestazioni/img/" , dirdb="/manifestazioni/img/",tipo="manifestazioni")
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), directory="./static/manifestazioni/img/" , dirdb="/manifestazioni/img/",tipo="manifestazioni")
 
     @cherrypy.expose
     def ins_news(request):
        
         tmp=env.get_template('inserimenti.html')
-        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), directory="/home/carlo/develop/myapp/static/news/img/",dirdb="/news/img/" ,tipo="news")
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), directory="./static/news/img/",dirdb="/news/img/" ,tipo="news")
 
 
     @cherrypy.expose
