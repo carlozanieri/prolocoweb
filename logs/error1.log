@@ -10800,3 +10800,109 @@ Request Headers:
 [11/Apr/2022:00:33:17] ENGINE Started monitor thread 'Autoreloader'.
 [11/Apr/2022:00:33:17] ENGINE Serving on http://0.0.0.0:9990
 [11/Apr/2022:00:33:17] ENGINE Bus STARTED
+[11/Apr/2022:00:48:38] ENGINE Caught signal SIGHUP.
+[11/Apr/2022:00:48:38] ENGINE SIGHUP caught but not daemonized. Exiting.
+[11/Apr/2022:00:48:38] ENGINE Bus STOPPING
+[11/Apr/2022:00:48:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9990)) shut down
+[11/Apr/2022:00:48:38] ENGINE Stopped thread 'Autoreloader'.
+[11/Apr/2022:00:48:38] ENGINE Bus STOPPED
+[11/Apr/2022:00:48:38] ENGINE Bus EXITING
+[11/Apr/2022:00:48:38] ENGINE Bus EXITED
+[11/Apr/2022:00:48:38] ENGINE Waiting for child threads to terminate...
+[19/Apr/2022:00:00:09] ENGINE Listening for SIGTERM.
+[19/Apr/2022:00:00:09] ENGINE Listening for SIGHUP.
+[19/Apr/2022:00:00:09] ENGINE Listening for SIGUSR1.
+[19/Apr/2022:00:00:09] ENGINE Bus STARTING
+[19/Apr/2022:00:00:09] ENGINE Started monitor thread 'Autoreloader'.
+[19/Apr/2022:00:00:09] ENGINE Serving on http://0.0.0.0:9990
+[19/Apr/2022:00:00:09] ENGINE Bus STARTED
+[19/Apr/2022:00:37:54] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/./server.conf changed.
+[19/Apr/2022:00:37:54] ENGINE Stopped thread 'Autoreloader'.
+[19/Apr/2022:00:37:54] ENGINE Bus STOPPING
+[19/Apr/2022:00:37:55] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9990)) shut down
+[19/Apr/2022:00:37:55] ENGINE Bus STOPPED
+[19/Apr/2022:00:37:55] ENGINE Bus EXITING
+[19/Apr/2022:00:37:55] ENGINE Bus EXITED
+[19/Apr/2022:00:37:55] ENGINE Waiting for child threads to terminate...
+[19/Apr/2022:00:37:55] ENGINE Re-spawning python hello.py
+[19/Apr/2022:00:37:56] ENGINE Listening for SIGTERM.
+[19/Apr/2022:00:37:56] ENGINE Listening for SIGHUP.
+[19/Apr/2022:00:37:56] ENGINE Listening for SIGUSR1.
+[19/Apr/2022:00:37:56] ENGINE Bus STARTING
+[19/Apr/2022:00:37:56] ENGINE Started monitor thread 'Autoreloader'.
+[19/Apr/2022:00:37:56] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1849, in start
+    self.prepare()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1804, in prepare
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission denied)
+
+[19/Apr/2022:00:37:56] ENGINE Bus STOPPING
+[19/Apr/2022:00:37:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[19/Apr/2022:00:37:56] ENGINE Stopped thread 'Autoreloader'.
+[19/Apr/2022:00:37:56] ENGINE Bus STOPPED
+[19/Apr/2022:00:37:56] ENGINE Bus EXITING
+[19/Apr/2022:00:37:56] ENGINE Bus EXITED
+[19/Apr/2022:00:38:03] ENGINE Listening for SIGTERM.
+[19/Apr/2022:00:38:03] ENGINE Listening for SIGHUP.
+[19/Apr/2022:00:38:03] ENGINE Listening for SIGUSR1.
+[19/Apr/2022:00:38:03] ENGINE Bus STARTING
+[19/Apr/2022:00:38:03] ENGINE Started monitor thread 'Autoreloader'.
+[19/Apr/2022:00:38:03] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1849, in start
+    self.prepare()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1804, in prepare
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission denied)
+
+[19/Apr/2022:00:38:03] ENGINE Bus STOPPING
+[19/Apr/2022:00:38:03] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[19/Apr/2022:00:38:03] ENGINE Stopped thread 'Autoreloader'.
+[19/Apr/2022:00:38:03] ENGINE Bus STOPPED
+[19/Apr/2022:00:38:03] ENGINE Bus EXITING
+[19/Apr/2022:00:38:03] ENGINE Bus EXITED
+[19/Apr/2022:00:38:43] ENGINE Listening for SIGTERM.
+[19/Apr/2022:00:38:43] ENGINE Listening for SIGHUP.
+[19/Apr/2022:00:38:43] ENGINE Listening for SIGUSR1.
+[19/Apr/2022:00:38:43] ENGINE Bus STARTING
+[19/Apr/2022:00:38:43] ENGINE Started monitor thread 'Autoreloader'.
+[19/Apr/2022:00:38:43] ENGINE Serving on http://0.0.0.0:9990
+[19/Apr/2022:00:38:43] ENGINE Bus STARTED
+[19/Apr/2022:00:52:07] ENGINE Caught signal SIGHUP.
+[19/Apr/2022:00:52:07] ENGINE SIGHUP caught but not daemonized. Exiting.
+[19/Apr/2022:00:52:07] ENGINE Bus STOPPING
+[19/Apr/2022:00:52:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9990)) shut down
+[19/Apr/2022:00:52:07] ENGINE Stopped thread 'Autoreloader'.
+[19/Apr/2022:00:52:07] ENGINE Bus STOPPED
+[19/Apr/2022:00:52:07] ENGINE Bus EXITING
+[19/Apr/2022:00:52:07] ENGINE Bus EXITED
+[19/Apr/2022:00:52:07] ENGINE Waiting for child threads to terminate...
+[20/Apr/2022:00:16:33] ENGINE Listening for SIGTERM.
+[20/Apr/2022:00:16:33] ENGINE Listening for SIGHUP.
+[20/Apr/2022:00:16:33] ENGINE Listening for SIGUSR1.
+[20/Apr/2022:00:16:33] ENGINE Bus STARTING
+[20/Apr/2022:00:16:33] ENGINE Started monitor thread 'Autoreloader'.
+[20/Apr/2022:00:16:33] ENGINE Serving on http://0.0.0.0:9990
+[20/Apr/2022:00:16:33] ENGINE Bus STARTED
+[20/Apr/2022:00:19:24] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/./server.conf changed.
+[20/Apr/2022:00:19:24] ENGINE Stopped thread 'Autoreloader'.
+[20/Apr/2022:00:19:24] ENGINE Bus STOPPING
+[20/Apr/2022:00:19:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9990)) shut down
+[20/Apr/2022:00:19:24] ENGINE Bus STOPPED
+[20/Apr/2022:00:19:24] ENGINE Bus EXITING
+[20/Apr/2022:00:19:24] ENGINE Bus EXITED
+[20/Apr/2022:00:19:24] ENGINE Waiting for child threads to terminate...
+[20/Apr/2022:00:19:24] ENGINE Re-spawning python hello.py
+[20/Apr/2022:00:19:26] ENGINE Listening for SIGTERM.
+[20/Apr/2022:00:19:26] ENGINE Listening for SIGHUP.
+[20/Apr/2022:00:19:26] ENGINE Listening for SIGUSR1.
+[20/Apr/2022:00:19:26] ENGINE Bus STARTING
+[20/Apr/2022:00:19:26] ENGINE Started monitor thread 'Autoreloader'.
+[20/Apr/2022:00:19:26] ENGINE Serving on http://0.0.0.0:9990
+[20/Apr/2022:00:19:26] ENGINE Bus STARTED
