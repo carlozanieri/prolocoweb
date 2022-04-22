@@ -10906,3 +10906,62 @@ OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission d
 [20/Apr/2022:00:19:26] ENGINE Started monitor thread 'Autoreloader'.
 [20/Apr/2022:00:19:26] ENGINE Serving on http://0.0.0.0:9990
 [20/Apr/2022:00:19:26] ENGINE Bus STARTED
+[20/Apr/2022:00:48:37] ENGINE Keyboard Interrupt: shutting down bus
+[20/Apr/2022:00:48:37] ENGINE Bus STOPPING
+[20/Apr/2022:00:48:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9990)) shut down
+[20/Apr/2022:00:48:37] ENGINE Stopped thread 'Autoreloader'.
+[20/Apr/2022:00:48:37] ENGINE Bus STOPPED
+[20/Apr/2022:00:48:37] ENGINE Bus EXITING
+[20/Apr/2022:00:48:37] ENGINE Bus EXITED
+[20/Apr/2022:00:48:37] ENGINE Waiting for child threads to terminate...
+[21/Apr/2022:18:18:04] ENGINE Listening for SIGTERM.
+[21/Apr/2022:18:18:04] ENGINE Listening for SIGHUP.
+[21/Apr/2022:18:18:04] ENGINE Listening for SIGUSR1.
+[21/Apr/2022:18:18:04] ENGINE Bus STARTING
+[21/Apr/2022:18:18:04] ENGINE Started monitor thread 'Autoreloader'.
+[21/Apr/2022:18:18:04] ENGINE Serving on http://0.0.0.0:9990
+[21/Apr/2022:18:18:04] ENGINE Bus STARTED
+[21/Apr/2022:18:21:03] ENGINE Keyboard Interrupt: shutting down bus
+[21/Apr/2022:18:21:03] ENGINE Bus STOPPING
+[21/Apr/2022:18:21:03] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 9990)) shut down
+[21/Apr/2022:18:21:03] ENGINE Stopped thread 'Autoreloader'.
+[21/Apr/2022:18:21:03] ENGINE Bus STOPPED
+[21/Apr/2022:18:21:03] ENGINE Bus EXITING
+[21/Apr/2022:18:21:03] ENGINE Bus EXITED
+[21/Apr/2022:18:21:03] ENGINE Waiting for child threads to terminate...
+[22/Apr/2022:17:23:22] ENGINE Listening for SIGTERM.
+[22/Apr/2022:17:23:22] ENGINE Listening for SIGHUP.
+[22/Apr/2022:17:23:22] ENGINE Listening for SIGUSR1.
+[22/Apr/2022:17:23:22] ENGINE Bus STARTING
+[22/Apr/2022:17:23:22] ENGINE Started monitor thread 'Autoreloader'.
+[22/Apr/2022:17:23:22] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1849, in start
+    self.prepare()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1804, in prepare
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission denied)
+
+[22/Apr/2022:17:23:22] ENGINE Bus STOPPING
+[22/Apr/2022:17:23:22] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[22/Apr/2022:17:23:22] ENGINE Stopped thread 'Autoreloader'.
+[22/Apr/2022:17:23:22] ENGINE Bus STOPPED
+[22/Apr/2022:17:23:22] ENGINE Bus EXITING
+[22/Apr/2022:17:23:22] ENGINE Bus EXITED
+[22/Apr/2022:17:24:37] ENGINE Listening for SIGTERM.
+[22/Apr/2022:17:24:37] ENGINE Listening for SIGHUP.
+[22/Apr/2022:17:24:37] ENGINE Listening for SIGUSR1.
+[22/Apr/2022:17:24:37] ENGINE Bus STARTING
+[22/Apr/2022:17:24:37] ENGINE Started monitor thread 'Autoreloader'.
+[22/Apr/2022:17:24:37] ENGINE Serving on http://0.0.0.0
+[22/Apr/2022:17:24:37] ENGINE Bus STARTED
+[22/Apr/2022:17:26:04] ENGINE Keyboard Interrupt: shutting down bus
+[22/Apr/2022:17:26:04] ENGINE Bus STOPPING
+[22/Apr/2022:17:26:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[22/Apr/2022:17:26:04] ENGINE Stopped thread 'Autoreloader'.
+[22/Apr/2022:17:26:04] ENGINE Bus STOPPED
+[22/Apr/2022:17:26:04] ENGINE Bus EXITING
+[22/Apr/2022:17:26:04] ENGINE Bus EXITED
+[22/Apr/2022:17:26:04] ENGINE Waiting for child threads to terminate...
