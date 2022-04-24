@@ -10965,3 +10965,1278 @@ OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission d
 [22/Apr/2022:17:26:04] ENGINE Bus EXITING
 [22/Apr/2022:17:26:04] ENGINE Bus EXITED
 [22/Apr/2022:17:26:04] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:17:14:22] ENGINE Listening for SIGTERM.
+[23/Apr/2022:17:14:22] ENGINE Listening for SIGHUP.
+[23/Apr/2022:17:14:22] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:17:14:22] ENGINE Bus STARTING
+[23/Apr/2022:17:14:22] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:17:14:22] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1849, in start
+    self.prepare()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1804, in prepare
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission denied)
+
+[23/Apr/2022:17:14:22] ENGINE Bus STOPPING
+[23/Apr/2022:17:14:22] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[23/Apr/2022:17:14:22] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:17:14:22] ENGINE Bus STOPPED
+[23/Apr/2022:17:14:22] ENGINE Bus EXITING
+[23/Apr/2022:17:14:22] ENGINE Bus EXITED
+[23/Apr/2022:17:14:50] ENGINE Listening for SIGTERM.
+[23/Apr/2022:17:14:50] ENGINE Listening for SIGHUP.
+[23/Apr/2022:17:14:50] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:17:14:50] ENGINE Bus STARTING
+[23/Apr/2022:17:14:50] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:17:14:51] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:17:14:51] ENGINE Bus STARTED
+[23/Apr/2022:17:19:02] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[23/Apr/2022:17:19:02] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:17:19:02] ENGINE Bus STOPPING
+[23/Apr/2022:17:19:02] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[23/Apr/2022:17:19:02] ENGINE Bus STOPPED
+[23/Apr/2022:17:19:02] ENGINE Bus EXITING
+[23/Apr/2022:17:19:02] ENGINE Bus EXITED
+[23/Apr/2022:17:19:02] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:17:19:02] ENGINE Re-spawning python hello.py
+[23/Apr/2022:17:19:04] ENGINE Listening for SIGTERM.
+[23/Apr/2022:17:19:04] ENGINE Listening for SIGHUP.
+[23/Apr/2022:17:19:04] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:17:19:04] ENGINE Bus STARTING
+[23/Apr/2022:17:19:04] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:17:19:04] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:17:19:04] ENGINE Bus STARTED
+[23/Apr/2022:17:19:11] ENGINE Keyboard Interrupt: shutting down bus
+[23/Apr/2022:17:19:11] ENGINE Bus STOPPING
+[23/Apr/2022:17:19:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[23/Apr/2022:17:19:11] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:17:19:11] ENGINE Bus STOPPED
+[23/Apr/2022:17:19:11] ENGINE Bus EXITING
+[23/Apr/2022:17:19:11] ENGINE Bus EXITED
+[23/Apr/2022:17:19:11] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:17:19:13] ENGINE Listening for SIGTERM.
+[23/Apr/2022:17:19:13] ENGINE Listening for SIGHUP.
+[23/Apr/2022:17:19:13] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:17:19:13] ENGINE Bus STARTING
+[23/Apr/2022:17:19:13] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:17:19:13] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:17:19:13] ENGINE Bus STARTED
+[23/Apr/2022:17:26:17] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[23/Apr/2022:17:26:17] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:17:26:17] ENGINE Bus STOPPING
+[23/Apr/2022:17:26:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[23/Apr/2022:17:26:18] ENGINE Bus STOPPED
+[23/Apr/2022:17:26:18] ENGINE Bus EXITING
+[23/Apr/2022:17:26:18] ENGINE Bus EXITED
+[23/Apr/2022:17:26:18] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:17:26:18] ENGINE Re-spawning python hello.py
+[23/Apr/2022:17:26:19] ENGINE Listening for SIGTERM.
+[23/Apr/2022:17:26:19] ENGINE Listening for SIGHUP.
+[23/Apr/2022:17:26:19] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:17:26:19] ENGINE Bus STARTING
+[23/Apr/2022:17:26:19] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:17:26:19] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:17:26:19] ENGINE Bus STARTED
+[23/Apr/2022:17:26:26] ENGINE Keyboard Interrupt: shutting down bus
+[23/Apr/2022:17:26:26] ENGINE Bus STOPPING
+[23/Apr/2022:17:26:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[23/Apr/2022:17:26:27] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:17:26:27] ENGINE Bus STOPPED
+[23/Apr/2022:17:26:27] ENGINE Bus EXITING
+[23/Apr/2022:17:26:27] ENGINE Bus EXITED
+[23/Apr/2022:17:26:27] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:17:26:34] ENGINE Listening for SIGTERM.
+[23/Apr/2022:17:26:34] ENGINE Listening for SIGHUP.
+[23/Apr/2022:17:26:34] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:17:26:34] ENGINE Bus STARTING
+[23/Apr/2022:17:26:34] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:17:26:35] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:17:26:35] ENGINE Bus STARTED
+[23/Apr/2022:19:09:11] ENGINE Caught signal SIGHUP.
+[23/Apr/2022:19:09:11] ENGINE SIGHUP caught but not daemonized. Exiting.
+[23/Apr/2022:19:09:11] ENGINE Bus STOPPING
+[23/Apr/2022:19:09:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[23/Apr/2022:19:09:12] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:19:09:12] ENGINE Bus STOPPED
+[23/Apr/2022:19:09:12] ENGINE Bus EXITING
+[23/Apr/2022:19:09:12] ENGINE Bus EXITED
+[23/Apr/2022:19:09:12] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:23:33:14] ENGINE Listening for SIGTERM.
+[23/Apr/2022:23:33:14] ENGINE Listening for SIGHUP.
+[23/Apr/2022:23:33:14] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:23:33:14] ENGINE Bus STARTING
+[23/Apr/2022:23:33:14] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:23:33:14] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:23:33:14] ENGINE Bus STARTED
+[23/Apr/2022:23:38:40] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[23/Apr/2022:23:38:40] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:23:38:40] ENGINE Bus STOPPING
+[23/Apr/2022:23:38:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[23/Apr/2022:23:38:40] ENGINE Bus STOPPED
+[23/Apr/2022:23:38:40] ENGINE Bus EXITING
+[23/Apr/2022:23:38:40] ENGINE Bus EXITED
+[23/Apr/2022:23:38:40] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:23:38:40] ENGINE Re-spawning python hello.py
+[23/Apr/2022:23:38:43] ENGINE Listening for SIGTERM.
+[23/Apr/2022:23:38:43] ENGINE Listening for SIGHUP.
+[23/Apr/2022:23:38:43] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:23:38:43] ENGINE Bus STARTING
+[23/Apr/2022:23:38:43] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:23:38:43] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:23:38:43] ENGINE Bus STARTED
+[23/Apr/2022:23:38:50] ENGINE Keyboard Interrupt: shutting down bus
+[23/Apr/2022:23:38:50] ENGINE Bus STOPPING
+[23/Apr/2022:23:38:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[23/Apr/2022:23:38:50] ENGINE Stopped thread 'Autoreloader'.
+[23/Apr/2022:23:38:50] ENGINE Bus STOPPED
+[23/Apr/2022:23:38:50] ENGINE Bus EXITING
+[23/Apr/2022:23:38:50] ENGINE Bus EXITED
+[23/Apr/2022:23:38:50] ENGINE Waiting for child threads to terminate...
+[23/Apr/2022:23:39:00] ENGINE Listening for SIGTERM.
+[23/Apr/2022:23:39:00] ENGINE Listening for SIGHUP.
+[23/Apr/2022:23:39:00] ENGINE Listening for SIGUSR1.
+[23/Apr/2022:23:39:00] ENGINE Bus STARTING
+[23/Apr/2022:23:39:00] ENGINE Started monitor thread 'Autoreloader'.
+[23/Apr/2022:23:39:00] ENGINE Serving on http://0.0.0.0
+[23/Apr/2022:23:39:00] ENGINE Bus STARTED
+[24/Apr/2022:00:10:38] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:10:38] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:10:38] ENGINE Bus STOPPING
+[24/Apr/2022:00:10:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:10:38] ENGINE Bus STOPPED
+[24/Apr/2022:00:10:38] ENGINE Bus EXITING
+[24/Apr/2022:00:10:38] ENGINE Bus EXITED
+[24/Apr/2022:00:10:38] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:10:38] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:10:40] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:10:40] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:10:40] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:10:40] ENGINE Bus STARTING
+[24/Apr/2022:00:10:40] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:10:40] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:10:40] ENGINE Bus STARTED
+[24/Apr/2022:00:10:51] ENGINE Keyboard Interrupt: shutting down bus
+[24/Apr/2022:00:10:51] ENGINE Bus STOPPING
+[24/Apr/2022:00:10:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:10:51] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:10:51] ENGINE Bus STOPPED
+[24/Apr/2022:00:10:51] ENGINE Bus EXITING
+[24/Apr/2022:00:10:51] ENGINE Bus EXITED
+[24/Apr/2022:00:10:51] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:11:00] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:11:00] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:11:00] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:11:00] ENGINE Bus STARTING
+[24/Apr/2022:00:11:00] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:11:00] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:11:00] ENGINE Bus STARTED
+[24/Apr/2022:00:24:53] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:24:53] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:24:53] ENGINE Bus STOPPING
+[24/Apr/2022:00:24:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:24:53] ENGINE Bus STOPPED
+[24/Apr/2022:00:24:53] ENGINE Bus EXITING
+[24/Apr/2022:00:24:53] ENGINE Bus EXITED
+[24/Apr/2022:00:24:53] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:24:53] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:24:55] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:24:55] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:24:55] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:24:55] ENGINE Bus STARTING
+[24/Apr/2022:00:24:55] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:24:55] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:24:55] ENGINE Bus STARTED
+[24/Apr/2022:00:25:08] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 82, in newss
+    data = urllib.parse.urlencode(values)
+NameError: name 'values' is not defined
+[24/Apr/2022:00:25:08] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: iframe
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: same-origin
+[24/Apr/2022:00:25:38] ENGINE Keyboard Interrupt: shutting down bus
+[24/Apr/2022:00:25:38] ENGINE Bus STOPPING
+[24/Apr/2022:00:25:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:25:38] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:25:38] ENGINE Bus STOPPED
+[24/Apr/2022:00:25:38] ENGINE Bus EXITING
+[24/Apr/2022:00:25:38] ENGINE Bus EXITED
+[24/Apr/2022:00:25:38] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:25:48] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:25:48] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:25:48] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:25:48] ENGINE Bus STARTING
+[24/Apr/2022:00:25:48] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:25:49] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:25:49] ENGINE Bus STARTED
+[24/Apr/2022:00:26:03] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 82, in newss
+    data = urllib.parse.urlencode(values)
+NameError: name 'values' is not defined
+[24/Apr/2022:00:26:03] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: iframe
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: same-origin
+[24/Apr/2022:00:26:21] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 82, in newss
+    data = urllib.parse.urlencode(values)
+NameError: name 'values' is not defined
+[24/Apr/2022:00:26:21] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: iframe
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: same-origin
+[24/Apr/2022:00:27:38] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:27:38] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:27:38] ENGINE Bus STOPPING
+[24/Apr/2022:00:27:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:27:38] ENGINE Bus STOPPED
+[24/Apr/2022:00:27:38] ENGINE Bus EXITING
+[24/Apr/2022:00:27:38] ENGINE Bus EXITED
+[24/Apr/2022:00:27:38] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:27:38] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:27:40] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:27:40] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:27:40] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:27:40] ENGINE Bus STARTING
+[24/Apr/2022:00:27:40] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:27:40] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:27:40] ENGINE Bus STARTED
+[24/Apr/2022:00:29:39] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:29:39] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:29:39] ENGINE Bus STOPPING
+[24/Apr/2022:00:29:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:29:39] ENGINE Bus STOPPED
+[24/Apr/2022:00:29:39] ENGINE Bus EXITING
+[24/Apr/2022:00:29:39] ENGINE Bus EXITED
+[24/Apr/2022:00:29:39] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:29:39] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:29:41] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:29:41] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:29:41] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:29:41] ENGINE Bus STARTING
+[24/Apr/2022:00:29:41] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:29:41] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:29:41] ENGINE Bus STARTED
+[24/Apr/2022:00:31:11] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:31:11] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:31:11] ENGINE Bus STOPPING
+[24/Apr/2022:00:31:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:31:12] ENGINE Bus STOPPED
+[24/Apr/2022:00:31:12] ENGINE Bus EXITING
+[24/Apr/2022:00:31:12] ENGINE Bus EXITED
+[24/Apr/2022:00:31:12] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:31:12] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:31:13] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:31:13] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:31:13] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:31:13] ENGINE Bus STARTING
+[24/Apr/2022:00:31:13] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:31:13] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:31:13] ENGINE Bus STARTED
+[24/Apr/2022:00:31:47] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:31:47] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:31:47] ENGINE Bus STOPPING
+[24/Apr/2022:00:31:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:31:47] ENGINE Bus STOPPED
+[24/Apr/2022:00:31:47] ENGINE Bus EXITING
+[24/Apr/2022:00:31:47] ENGINE Bus EXITED
+[24/Apr/2022:00:31:47] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:31:47] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:38:23] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:38:23] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:38:23] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:38:23] ENGINE Bus STARTING
+[24/Apr/2022:00:38:23] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:38:23] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:38:23] ENGINE Bus STARTED
+[24/Apr/2022:00:38:30] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 81, in newss
+    html=response.html()
+AttributeError: 'HTTPResponse' object has no attribute 'html'
+[24/Apr/2022:00:38:30] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: iframe
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: same-origin
+[24/Apr/2022:00:39:04] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:39:04] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:39:04] ENGINE Bus STOPPING
+[24/Apr/2022:00:39:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:39:04] ENGINE Bus STOPPED
+[24/Apr/2022:00:39:04] ENGINE Bus EXITING
+[24/Apr/2022:00:39:04] ENGINE Bus EXITED
+[24/Apr/2022:00:39:04] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:39:04] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:39:05] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:39:05] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:39:05] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:39:05] ENGINE Bus STARTING
+[24/Apr/2022:00:39:05] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:39:05] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:39:05] ENGINE Bus STARTED
+[24/Apr/2022:00:39:12] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 81, in newss
+    html=response.html
+AttributeError: 'HTTPResponse' object has no attribute 'html'
+[24/Apr/2022:00:39:12] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: iframe
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: same-origin
+[24/Apr/2022:00:39:58] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:39:58] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:39:58] ENGINE Bus STOPPING
+[24/Apr/2022:00:39:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:39:58] ENGINE Bus STOPPED
+[24/Apr/2022:00:39:58] ENGINE Bus EXITING
+[24/Apr/2022:00:39:58] ENGINE Bus EXITED
+[24/Apr/2022:00:39:58] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:39:58] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:40:00] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:40:00] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:40:00] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:40:00] ENGINE Bus STARTING
+[24/Apr/2022:00:40:00] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:40:00] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:40:00] ENGINE Bus STARTED
+[24/Apr/2022:00:41:01] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:41:01] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:41:01] ENGINE Bus STOPPING
+[24/Apr/2022:00:41:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:41:01] ENGINE Bus STOPPED
+[24/Apr/2022:00:41:01] ENGINE Bus EXITING
+[24/Apr/2022:00:41:01] ENGINE Bus EXITED
+[24/Apr/2022:00:41:01] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:41:01] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:41:03] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:41:03] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:41:03] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:41:03] ENGINE Bus STARTING
+[24/Apr/2022:00:41:03] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:41:03] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:41:03] ENGINE Bus STARTED
+[24/Apr/2022:00:41:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 81, in newss
+    html=response.write()
+io.UnsupportedOperation: write
+[24/Apr/2022:00:41:10] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: iframe
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: same-origin
+[24/Apr/2022:00:43:42] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:43:42] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:43:42] ENGINE Bus STOPPING
+[24/Apr/2022:00:43:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:43:42] ENGINE Bus STOPPED
+[24/Apr/2022:00:43:42] ENGINE Bus EXITING
+[24/Apr/2022:00:43:42] ENGINE Bus EXITED
+[24/Apr/2022:00:43:42] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:43:42] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:43:44] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:43:44] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:43:44] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:43:44] ENGINE Bus STARTING
+[24/Apr/2022:00:43:44] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:43:44] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:43:44] ENGINE Bus STARTED
+[24/Apr/2022:00:43:52] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 82, in newss
+    return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), urlx=html)
+NameError: name 'html' is not defined
+[24/Apr/2022:00:43:52] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: iframe
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: same-origin
+[24/Apr/2022:00:44:28] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:44:28] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:44:28] ENGINE Bus STOPPING
+[24/Apr/2022:00:44:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:44:28] ENGINE Bus STOPPED
+[24/Apr/2022:00:44:28] ENGINE Bus EXITING
+[24/Apr/2022:00:44:28] ENGINE Bus EXITED
+[24/Apr/2022:00:44:28] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:44:28] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:44:29] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:44:29] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:44:29] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:44:29] ENGINE Bus STARTING
+[24/Apr/2022:00:44:29] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:44:30] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:44:30] ENGINE Bus STARTED
+[24/Apr/2022:00:49:46] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:49:46] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:49:46] ENGINE Bus STOPPING
+[24/Apr/2022:00:49:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:49:47] ENGINE Bus STOPPED
+[24/Apr/2022:00:49:47] ENGINE Bus EXITING
+[24/Apr/2022:00:49:47] ENGINE Bus EXITED
+[24/Apr/2022:00:49:47] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:49:47] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:49:48] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:49:48] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:49:48] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:49:48] ENGINE Bus STARTING
+[24/Apr/2022:00:49:48] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:49:48] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:49:48] ENGINE Bus STARTED
+[24/Apr/2022:00:51:18] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:00:51:18] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:51:18] ENGINE Bus STOPPING
+[24/Apr/2022:00:51:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:51:18] ENGINE Bus STOPPED
+[24/Apr/2022:00:51:18] ENGINE Bus EXITING
+[24/Apr/2022:00:51:18] ENGINE Bus EXITED
+[24/Apr/2022:00:51:18] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:51:18] ENGINE Re-spawning python hello.py
+[24/Apr/2022:00:51:20] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:51:20] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:51:20] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:51:20] ENGINE Bus STARTING
+[24/Apr/2022:00:51:20] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:51:20] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:51:20] ENGINE Bus STARTED
+[24/Apr/2022:00:51:47] ENGINE Keyboard Interrupt: shutting down bus
+[24/Apr/2022:00:51:47] ENGINE Bus STOPPING
+[24/Apr/2022:00:51:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:51:47] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:51:47] ENGINE Bus STOPPED
+[24/Apr/2022:00:51:47] ENGINE Bus EXITING
+[24/Apr/2022:00:51:47] ENGINE Bus EXITED
+[24/Apr/2022:00:51:47] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:00:51:56] ENGINE Listening for SIGTERM.
+[24/Apr/2022:00:51:56] ENGINE Listening for SIGHUP.
+[24/Apr/2022:00:51:56] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:00:51:56] ENGINE Bus STARTING
+[24/Apr/2022:00:51:56] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:00:51:56] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:00:51:56] ENGINE Bus STARTED
+[24/Apr/2022:00:52:53] ENGINE Caught signal SIGHUP.
+[24/Apr/2022:00:52:53] ENGINE SIGHUP caught but not daemonized. Exiting.
+[24/Apr/2022:00:52:53] ENGINE Bus STOPPING
+[24/Apr/2022:00:52:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:00:52:53] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:00:52:53] ENGINE Bus STOPPED
+[24/Apr/2022:00:52:53] ENGINE Bus EXITING
+[24/Apr/2022:00:52:53] ENGINE Bus EXITED
+[24/Apr/2022:00:52:53] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:00:00] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:00:00] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:00:00] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:00:00] ENGINE Bus STARTING
+[24/Apr/2022:21:00:00] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:00:00] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:00:00] ENGINE Bus STARTED
+[24/Apr/2022:21:01:22] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:01:22] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:01:22] ENGINE Bus STOPPING
+[24/Apr/2022:21:01:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:01:23] ENGINE Bus STOPPED
+[24/Apr/2022:21:01:23] ENGINE Bus EXITING
+[24/Apr/2022:21:01:23] ENGINE Bus EXITED
+[24/Apr/2022:21:01:23] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:01:23] ENGINE Re-spawning python hello.py
+[24/Apr/2022:21:01:24] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:01:24] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:01:24] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:01:24] ENGINE Bus STARTING
+[24/Apr/2022:21:01:24] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:01:24] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:01:24] ENGINE Bus STARTED
+[24/Apr/2022:21:07:20] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:07:20] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:07:20] ENGINE Bus STOPPING
+[24/Apr/2022:21:07:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:07:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:07:21] ENGINE Bus EXITING
+[24/Apr/2022:21:07:21] ENGINE Bus EXITED
+[24/Apr/2022:21:07:21] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:07:21] ENGINE Re-spawning python hello.py
+[24/Apr/2022:21:07:22] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:07:22] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:07:22] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:07:22] ENGINE Bus STARTING
+[24/Apr/2022:21:07:22] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:07:22] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:07:22] ENGINE Bus STARTED
+[24/Apr/2022:21:23:36] ENGINE Keyboard Interrupt: shutting down bus
+[24/Apr/2022:21:23:36] ENGINE Bus STOPPING
+[24/Apr/2022:21:24:38] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:24:38] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:24:38] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:24:38] ENGINE Bus STARTING
+[24/Apr/2022:21:24:38] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:24:38] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:24:38] ENGINE Bus STARTED
+[24/Apr/2022:21:26:02] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:26:02] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:26:02] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:20] ENGINE Caught signal SIGHUP.
+[24/Apr/2022:21:26:20] ENGINE SIGHUP caught but not daemonized. Exiting.
+[24/Apr/2022:21:26:20] ENGINE Caught signal SIGHUP.
+[24/Apr/2022:21:26:20] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:20] ENGINE SIGHUP caught but not daemonized. Exiting.
+[24/Apr/2022:21:26:20] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:26:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:26:20] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:26:20] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:20] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:26:20] ENGINE Bus EXITING
+[24/Apr/2022:21:26:20] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:20] ENGINE Bus EXITED
+[24/Apr/2022:21:26:20] ENGINE Bus EXITING
+[24/Apr/2022:21:26:20] ENGINE Bus EXITED
+[24/Apr/2022:21:26:20] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:26:20] ENGINE Waiting for thread ('CP Server Thread-3',).
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGTERM.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGTERM.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGTERM.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGTERM.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGHUP.
+[24/Apr/2022:21:26:21] ENGINE SIGHUP caught but not daemonized. Exiting.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGHUP.
+[24/Apr/2022:21:26:21] ENGINE SIGHUP caught but not daemonized. Exiting.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGHUP.
+[24/Apr/2022:21:26:21] ENGINE SIGHUP caught but not daemonized. Exiting.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:26:21] ENGINE Caught signal SIGHUP.
+[24/Apr/2022:21:26:21] ENGINE SIGHUP caught but not daemonized. Exiting.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPING
+[24/Apr/2022:21:26:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[24/Apr/2022:21:26:21] ENGINE No thread running for None.
+[24/Apr/2022:21:26:21] ENGINE Bus STOPPED
+[24/Apr/2022:21:26:21] ENGINE Bus EXITING
+[24/Apr/2022:21:26:21] ENGINE Bus EXITED
+[24/Apr/2022:21:28:53] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:28:53] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:28:53] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:28:53] ENGINE Bus STARTING
+[24/Apr/2022:21:28:53] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:28:53] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:28:53] ENGINE Bus STARTED
+[24/Apr/2022:21:34:37] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:34:37] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:34:37] ENGINE Bus STOPPING
+[24/Apr/2022:21:34:49] ENGINE Keyboard Interrupt: shutting down bus
+[24/Apr/2022:21:34:49] ENGINE Bus STOPPING
+[24/Apr/2022:21:34:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:34:49] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:34:49] ENGINE Bus STOPPED
+[24/Apr/2022:21:34:49] ENGINE Bus EXITING
+[24/Apr/2022:21:34:49] ENGINE Bus EXITED
+[24/Apr/2022:21:34:49] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:34:49] ENGINE Waiting for thread ('CP Server Thread-3',).
+[24/Apr/2022:21:35:04] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:35:04] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:35:04] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:35:04] ENGINE Bus STARTING
+[24/Apr/2022:21:35:04] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:35:04] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:35:04] ENGINE Bus STARTED
+[24/Apr/2022:21:39:09] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:39:09] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:39:09] ENGINE Bus STOPPING
+[24/Apr/2022:21:39:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:39:10] ENGINE Bus STOPPED
+[24/Apr/2022:21:39:10] ENGINE Bus EXITING
+[24/Apr/2022:21:39:10] ENGINE Bus EXITED
+[24/Apr/2022:21:39:10] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:39:10] ENGINE Re-spawning python hello.py
+[24/Apr/2022:21:39:11] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:39:11] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:39:11] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:39:11] ENGINE Bus STARTING
+[24/Apr/2022:21:39:11] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:39:11] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:39:11] ENGINE Bus STARTED
+[24/Apr/2022:21:39:22] ENGINE Keyboard Interrupt: shutting down bus
+[24/Apr/2022:21:39:22] ENGINE Bus STOPPING
+[24/Apr/2022:21:39:22] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:39:22] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:39:22] ENGINE Bus STOPPED
+[24/Apr/2022:21:39:22] ENGINE Bus EXITING
+[24/Apr/2022:21:39:22] ENGINE Bus EXITED
+[24/Apr/2022:21:39:22] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:39:26] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:39:26] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:39:26] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:39:26] ENGINE Bus STARTING
+[24/Apr/2022:21:39:26] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:39:27] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:39:27] ENGINE Bus STARTED
+[24/Apr/2022:21:46:30] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:46:30] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:46:30] ENGINE Bus STOPPING
+[24/Apr/2022:21:46:38] ENGINE Keyboard Interrupt: shutting down bus
+[24/Apr/2022:21:46:38] ENGINE Bus STOPPING
+[24/Apr/2022:21:46:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:46:38] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:46:38] ENGINE Bus STOPPED
+[24/Apr/2022:21:46:38] ENGINE Bus EXITING
+[24/Apr/2022:21:46:38] ENGINE Bus EXITED
+[24/Apr/2022:21:46:38] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:46:38] ENGINE Waiting for thread ('CP Server Thread-3',).
+[24/Apr/2022:21:47:30] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:47:30] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:47:30] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:47:30] ENGINE Bus STARTING
+[24/Apr/2022:21:47:30] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:47:30] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:47:30] ENGINE Bus STARTED
+[24/Apr/2022:21:47:49] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 15, in index
+    if urllib.request.urlopen() == 'http://localhost':
+TypeError: urlopen() missing 1 required positional argument: 'url'
+[24/Apr/2022:21:47:49] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: document
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: none
+  SEC-FETCH-USER: ?1
+[24/Apr/2022:21:53:07] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:53:07] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:53:07] ENGINE Bus STOPPING
+[24/Apr/2022:21:53:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:53:07] ENGINE Bus STOPPED
+[24/Apr/2022:21:53:07] ENGINE Bus EXITING
+[24/Apr/2022:21:53:07] ENGINE Bus EXITED
+[24/Apr/2022:21:53:07] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:53:07] ENGINE Re-spawning python hello.py
+[24/Apr/2022:21:53:08] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:53:08] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:53:08] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:53:08] ENGINE Bus STARTING
+[24/Apr/2022:21:53:08] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:53:08] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:53:08] ENGINE Bus STARTED
+[24/Apr/2022:21:53:45] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:53:45] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:53:45] ENGINE Bus STOPPING
+[24/Apr/2022:21:53:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:53:46] ENGINE Bus STOPPED
+[24/Apr/2022:21:53:46] ENGINE Bus EXITING
+[24/Apr/2022:21:53:46] ENGINE Bus EXITED
+[24/Apr/2022:21:53:46] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:53:46] ENGINE Re-spawning python hello.py
+[24/Apr/2022:21:53:48] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:53:48] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:53:48] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:53:48] ENGINE Bus STARTING
+[24/Apr/2022:21:53:48] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:53:48] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:53:48] ENGINE Bus STARTED
+[24/Apr/2022:21:53:55] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 15, in index
+    if urllib.urlread() == 'http://localhost':
+AttributeError: module 'urllib' has no attribute 'urlread'
+[24/Apr/2022:21:53:55] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: document
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: none
+  SEC-FETCH-USER: ?1
+  CACHE-CONTROL: max-age=0
+[24/Apr/2022:21:55:25] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:55:25] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:55:25] ENGINE Bus STOPPING
+[24/Apr/2022:21:55:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:55:25] ENGINE Bus STOPPED
+[24/Apr/2022:21:55:25] ENGINE Bus EXITING
+[24/Apr/2022:21:55:25] ENGINE Bus EXITED
+[24/Apr/2022:21:55:25] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:55:25] ENGINE Re-spawning python hello.py
+[24/Apr/2022:21:55:26] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:55:26] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:55:26] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:55:26] ENGINE Bus STARTING
+[24/Apr/2022:21:55:26] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:55:26] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:55:26] ENGINE Bus STARTED
+[24/Apr/2022:21:55:35] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 15, in index
+    if urllib.request.urlread() == 'http://localhost':
+AttributeError: module 'urllib.request' has no attribute 'urlread'
+[24/Apr/2022:21:55:35] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: document
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: none
+  SEC-FETCH-USER: ?1
+  CACHE-CONTROL: max-age=0
+[24/Apr/2022:21:56:19] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:21:56:19] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:21:56:19] ENGINE Bus STOPPING
+[24/Apr/2022:21:56:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:21:56:19] ENGINE Bus STOPPED
+[24/Apr/2022:21:56:19] ENGINE Bus EXITING
+[24/Apr/2022:21:56:19] ENGINE Bus EXITED
+[24/Apr/2022:21:56:19] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:21:56:19] ENGINE Re-spawning python hello.py
+[24/Apr/2022:21:56:21] ENGINE Listening for SIGTERM.
+[24/Apr/2022:21:56:21] ENGINE Listening for SIGHUP.
+[24/Apr/2022:21:56:21] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:21:56:21] ENGINE Bus STARTING
+[24/Apr/2022:21:56:21] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:21:56:21] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:21:56:21] ENGINE Bus STARTED
+[24/Apr/2022:21:56:27] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 15, in index
+    if urllib.request.url() == 'http://localhost':
+AttributeError: module 'urllib.request' has no attribute 'url'
+[24/Apr/2022:21:56:27] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: document
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: none
+  SEC-FETCH-USER: ?1
+  CACHE-CONTROL: max-age=0
+[24/Apr/2022:23:48:56] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:23:48:56] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:23:48:56] ENGINE Bus STOPPING
+[24/Apr/2022:23:48:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:23:48:56] ENGINE Bus STOPPED
+[24/Apr/2022:23:48:56] ENGINE Bus EXITING
+[24/Apr/2022:23:48:56] ENGINE Bus EXITED
+[24/Apr/2022:23:48:56] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:23:48:56] ENGINE Re-spawning python hello.py
+[24/Apr/2022:23:48:58] ENGINE Listening for SIGTERM.
+[24/Apr/2022:23:48:58] ENGINE Listening for SIGHUP.
+[24/Apr/2022:23:48:58] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:23:48:58] ENGINE Bus STARTING
+[24/Apr/2022:23:48:58] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:23:48:58] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:23:48:58] ENGINE Bus STARTED
+[24/Apr/2022:23:49:07] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 18, in index
+    elif urllib.request.urlread() == 'http://0.0.0.0' :
+AttributeError: module 'urllib.request' has no attribute 'urlread'
+[24/Apr/2022:23:49:07] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  COOKIE: blogdemo_user="2|1:0|10:1650037866|13:blogdemo_user|4:MQ==|3b2d4b91a7eb028423d7cf57ffbceb95d68669559bafc56644930b10854bc05e"; __utmc=111872281; admin_session_8080="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; proloco_session="z3lpx6vL8TwI60+BnkitgEUo4Qs=?info=eyJpcCI6ICIxMjcuMC4wLjEiLCAidXVpZCI6IG51bGwsICJ1c2VyX2luZm8iOiB7InVzZXJfaWQiOiBudWxsLCAicm9sZV9pZCI6IG51bGwsICJyb2xlX25hbWUiOiAiIiwgInVzZXJfbmFtZSI6ICIiLCAiYWRtaW4iOiBmYWxzZX19"; csrftoken=2GdWebEam5dhEPv3FkJOYLDhWFvtSTqGbUgKc5qsyxmr4MV5dZsJFdW3RtmxscVL; _xsrf=2|e31835a1|92d04fe58a0a2a6e50819d1d92086976|1649975331
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: document
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: none
+  SEC-FETCH-USER: ?1
+  CACHE-CONTROL: max-age=0
+[24/Apr/2022:23:49:48] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:23:49:48] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:23:49:48] ENGINE Bus STOPPING
+[24/Apr/2022:23:49:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:23:49:48] ENGINE Bus STOPPED
+[24/Apr/2022:23:49:48] ENGINE Bus EXITING
+[24/Apr/2022:23:49:48] ENGINE Bus EXITED
+[24/Apr/2022:23:49:48] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:23:49:48] ENGINE Re-spawning python hello.py
+[24/Apr/2022:23:49:50] ENGINE Listening for SIGTERM.
+[24/Apr/2022:23:49:50] ENGINE Listening for SIGHUP.
+[24/Apr/2022:23:49:50] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:23:49:50] ENGINE Bus STARTING
+[24/Apr/2022:23:49:50] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:23:49:50] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:23:49:50] ENGINE Bus STARTED
+[24/Apr/2022:23:51:38] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:23:51:38] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:23:51:38] ENGINE Bus STOPPING
+[24/Apr/2022:23:51:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:23:51:38] ENGINE Bus STOPPED
+[24/Apr/2022:23:51:38] ENGINE Bus EXITING
+[24/Apr/2022:23:51:38] ENGINE Bus EXITED
+[24/Apr/2022:23:51:39] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:23:51:39] ENGINE Re-spawning python hello.py
+[24/Apr/2022:23:51:40] ENGINE Listening for SIGTERM.
+[24/Apr/2022:23:51:40] ENGINE Listening for SIGHUP.
+[24/Apr/2022:23:51:40] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:23:51:40] ENGINE Bus STARTING
+[24/Apr/2022:23:51:40] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:23:51:40] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:23:51:40] ENGINE Bus STARTED
+[24/Apr/2022:23:53:32] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:23:53:32] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:23:53:32] ENGINE Bus STOPPING
+[24/Apr/2022:23:53:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:23:53:32] ENGINE Bus STOPPED
+[24/Apr/2022:23:53:32] ENGINE Bus EXITING
+[24/Apr/2022:23:53:32] ENGINE Bus EXITED
+[24/Apr/2022:23:53:32] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:23:53:32] ENGINE Re-spawning python hello.py
+[24/Apr/2022:23:53:33] ENGINE Listening for SIGTERM.
+[24/Apr/2022:23:53:33] ENGINE Listening for SIGHUP.
+[24/Apr/2022:23:53:33] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:23:53:33] ENGINE Bus STARTING
+[24/Apr/2022:23:53:33] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:23:53:33] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:23:53:33] ENGINE Bus STARTED
+[24/Apr/2022:23:57:48] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[24/Apr/2022:23:57:48] ENGINE Stopped thread 'Autoreloader'.
+[24/Apr/2022:23:57:48] ENGINE Bus STOPPING
+[24/Apr/2022:23:57:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[24/Apr/2022:23:57:48] ENGINE Bus STOPPED
+[24/Apr/2022:23:57:48] ENGINE Bus EXITING
+[24/Apr/2022:23:57:48] ENGINE Bus EXITED
+[24/Apr/2022:23:57:48] ENGINE Waiting for child threads to terminate...
+[24/Apr/2022:23:57:48] ENGINE Re-spawning python hello.py
+[24/Apr/2022:23:57:50] ENGINE Listening for SIGTERM.
+[24/Apr/2022:23:57:50] ENGINE Listening for SIGHUP.
+[24/Apr/2022:23:57:50] ENGINE Listening for SIGUSR1.
+[24/Apr/2022:23:57:50] ENGINE Bus STARTING
+[24/Apr/2022:23:57:50] ENGINE Started monitor thread 'Autoreloader'.
+[24/Apr/2022:23:57:50] ENGINE Serving on http://0.0.0.0
+[24/Apr/2022:23:57:50] ENGINE Bus STARTED
+[25/Apr/2022:00:03:35] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:03:35] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:03:35] ENGINE Bus STOPPING
+[25/Apr/2022:00:03:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:03:35] ENGINE Bus STOPPED
+[25/Apr/2022:00:03:35] ENGINE Bus EXITING
+[25/Apr/2022:00:03:35] ENGINE Bus EXITED
+[25/Apr/2022:00:03:35] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:03:35] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:03:37] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:03:37] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:03:37] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:03:37] ENGINE Bus STARTING
+[25/Apr/2022:00:03:37] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:03:37] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:03:37] ENGINE Bus STARTED
+[25/Apr/2022:00:03:44] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 22, in index
+    return page
+UnboundLocalError: local variable 'page' referenced before assignment
+[25/Apr/2022:00:03:44] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  SEC-FETCH-DEST: document
+  SEC-FETCH-MODE: navigate
+  SEC-FETCH-SITE: none
+  SEC-FETCH-USER: ?1
+  CACHE-CONTROL: max-age=0
+[25/Apr/2022:00:06:16] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:06:16] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:06:16] ENGINE Bus STOPPING
+[25/Apr/2022:00:06:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:06:16] ENGINE Bus STOPPED
+[25/Apr/2022:00:06:16] ENGINE Bus EXITING
+[25/Apr/2022:00:06:16] ENGINE Bus EXITED
+[25/Apr/2022:00:06:16] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:06:16] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:08:21] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:08:21] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:08:21] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:08:21] ENGINE Bus STARTING
+[25/Apr/2022:00:08:21] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:08:21] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:08:21] ENGINE Bus STARTED
+[25/Apr/2022:00:10:13] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:10:13] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:10:13] ENGINE Bus STOPPING
+[25/Apr/2022:00:10:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:10:13] ENGINE Bus STOPPED
+[25/Apr/2022:00:10:13] ENGINE Bus EXITING
+[25/Apr/2022:00:10:13] ENGINE Bus EXITED
+[25/Apr/2022:00:10:13] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:10:13] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:10:15] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:10:15] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:10:15] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:10:15] ENGINE Bus STARTING
+[25/Apr/2022:00:10:15] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:10:15] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:10:15] ENGINE Bus STARTED
+[25/Apr/2022:00:13:37] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:13:37] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:13:37] ENGINE Bus STOPPING
+[25/Apr/2022:00:13:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:13:37] ENGINE Bus STOPPED
+[25/Apr/2022:00:13:37] ENGINE Bus EXITING
+[25/Apr/2022:00:13:37] ENGINE Bus EXITED
+[25/Apr/2022:00:13:37] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:13:37] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:13:39] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:13:39] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:13:39] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:13:39] ENGINE Bus STARTING
+[25/Apr/2022:00:13:39] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:13:39] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:13:39] ENGINE Bus STARTED
+[25/Apr/2022:00:14:43] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:14:43] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:14:43] ENGINE Bus STOPPING
+[25/Apr/2022:00:14:43] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:14:43] ENGINE Bus STOPPED
+[25/Apr/2022:00:14:43] ENGINE Bus EXITING
+[25/Apr/2022:00:14:43] ENGINE Bus EXITED
+[25/Apr/2022:00:14:43] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:14:43] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:14:45] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:14:45] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:14:45] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:14:45] ENGINE Bus STARTING
+[25/Apr/2022:00:14:45] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:14:45] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:14:45] ENGINE Bus STARTED
+[25/Apr/2022:00:17:37] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:17:37] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:17:37] ENGINE Bus STOPPING
+[25/Apr/2022:00:17:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:17:37] ENGINE Bus STOPPED
+[25/Apr/2022:00:17:37] ENGINE Bus EXITING
+[25/Apr/2022:00:17:37] ENGINE Bus EXITED
+[25/Apr/2022:00:17:37] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:17:37] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:17:39] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:17:39] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:17:39] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:17:39] ENGINE Bus STARTING
+[25/Apr/2022:00:17:39] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:17:39] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:17:39] ENGINE Bus STARTED
+[25/Apr/2022:00:22:25] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:22:25] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:22:25] ENGINE Bus STOPPING
+[25/Apr/2022:00:22:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:22:25] ENGINE Bus STOPPED
+[25/Apr/2022:00:22:25] ENGINE Bus EXITING
+[25/Apr/2022:00:22:25] ENGINE Bus EXITED
+[25/Apr/2022:00:22:25] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:22:25] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:22:26] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:22:26] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:22:26] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:22:26] ENGINE Bus STARTING
+[25/Apr/2022:00:22:26] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:22:26] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:22:26] ENGINE Bus STARTED
+[25/Apr/2022:00:22:28] ENGINE Keyboard Interrupt: shutting down bus
+[25/Apr/2022:00:22:28] ENGINE Bus STOPPING
+[25/Apr/2022:00:22:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:22:28] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:22:28] ENGINE Bus STOPPED
+[25/Apr/2022:00:22:28] ENGINE Bus EXITING
+[25/Apr/2022:00:22:28] ENGINE Bus EXITED
+[25/Apr/2022:00:22:28] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:22:44] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:22:44] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:22:44] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:22:44] ENGINE Bus STARTING
+[25/Apr/2022:00:22:44] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:22:44] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:22:44] ENGINE Bus STARTED
+[25/Apr/2022:00:25:46] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:25:46] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:25:46] ENGINE Bus STOPPING
+[25/Apr/2022:00:25:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:25:46] ENGINE Bus STOPPED
+[25/Apr/2022:00:25:46] ENGINE Bus EXITING
+[25/Apr/2022:00:25:46] ENGINE Bus EXITED
+[25/Apr/2022:00:25:46] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:25:46] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:25:47] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:25:47] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:25:47] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:25:47] ENGINE Bus STARTING
+[25/Apr/2022:00:25:47] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:25:47] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:25:47] ENGINE Bus STARTED
+[25/Apr/2022:00:26:23] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[25/Apr/2022:00:26:23] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:26:23] ENGINE Bus STOPPING
+[25/Apr/2022:00:26:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:26:23] ENGINE Bus STOPPED
+[25/Apr/2022:00:26:23] ENGINE Bus EXITING
+[25/Apr/2022:00:26:23] ENGINE Bus EXITED
+[25/Apr/2022:00:26:23] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:26:23] ENGINE Re-spawning python hello.py
+[25/Apr/2022:00:26:24] ENGINE Listening for SIGTERM.
+[25/Apr/2022:00:26:24] ENGINE Listening for SIGHUP.
+[25/Apr/2022:00:26:24] ENGINE Listening for SIGUSR1.
+[25/Apr/2022:00:26:24] ENGINE Bus STARTING
+[25/Apr/2022:00:26:24] ENGINE Started monitor thread 'Autoreloader'.
+[25/Apr/2022:00:26:24] ENGINE Serving on http://0.0.0.0
+[25/Apr/2022:00:26:24] ENGINE Bus STARTED

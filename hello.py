@@ -3,6 +3,8 @@ from cherrypy import request
 import cherrypy
 import os.path
 import configparser
+import urllib
+from urllib.request import urlopen
 from jinja2 import Environment, FileSystemLoader
 from Connect import Connect
 env = Environment(loader=FileSystemLoader('templates'))
@@ -10,7 +12,26 @@ class HelloWorld():
     @cherrypy.expose
     def index(self):
         tmpl = env.get_template('mytemplate.html')
-        return tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
+        if cherrypy.url() == 'http://carlozanieri.it/':
+            tmpl = env.get_template('mytemplate.html')
+
+            page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
+        elif cherrypy.url() == 'http://linuxmugello.net/' :
+            tmpl = env.get_template('mytemplate.html')
+            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+        elif cherrypy.url() == 'http://localhost/' :
+            tmpl = env.get_template('mytemplate.html')
+            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+        elif cherrypy.url() == '0.0.0.0/' :
+            tmpl = env.get_template('mytemplate.html')
+            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+        
+        else:
+            tmpl = env.get_template('mytemplate.html')
+            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "sanpiero"),  luogo = "sanpiero", urlx=cherrypy.url())
+                 
+
+        return page
     @cherrypy.expose
     def test(self):
         return "Test Controller"
@@ -45,9 +66,13 @@ class HelloWorld():
 
 
     @cherrypy.expose
-    def newss(self):
+    def newss(self,*url_parts, **params):
+
+        
         tmp=env.get_template('news.html')
-        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""))
+        with urllib.request.urlopen('http://localhost/') as response:
+            html=response.read()
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), urlx=html)
 
     @cherrypy.expose
     def news_one(request,titolo,id):
@@ -67,11 +92,12 @@ class HelloWorld():
         return tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello")
 
     @cherrypy.expose
-    def newss(self):
+    def newss(self,*url_parts, **params):
+                
         tmp=env.get_template('news.html')
-        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""))
-    
-   
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), urlx="html")
+        
+
     @cherrypy.expose
     def store_mp3_view(request):
             # ``filename`` contains the name of the file in string format.
