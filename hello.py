@@ -17,13 +17,13 @@ class HelloWorld():
 
             page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
         elif cherrypy.url() == 'http://linuxmugello.net/' :
-            tmpl = env.get_template('mytemplate.html')
+            tmpl = env.get_template('index.html')
             page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         elif cherrypy.url() == 'http://localhost/' :
             tmpl = env.get_template('mytemplate.html')
             page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
-        elif cherrypy.url() == '0.0.0.0/' :
-            tmpl = env.get_template('mytemplate.html')
+        elif cherrypy.url() == 'http://0.0.0.0/' :
+            tmpl = env.get_template('index.html')
             page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         
         else:
