@@ -16,6 +16,10 @@ class HelloWorld():
             tmpl = env.get_template('mytemplate.html')
 
             page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
+        elif cherrypy.url() == 'http://blog.carlozanieri.it/':
+            tmpl = env.get_template('carlozanieriblog.html')
+
+            page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
         elif cherrypy.url() == 'http://linuxmugello.net/' :
             tmpl = env.get_template('index.html')
             page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())

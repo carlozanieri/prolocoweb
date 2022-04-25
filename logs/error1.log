@@ -12302,3 +12302,35 @@ Request Headers:
 [25/Apr/2022:00:54:22] ENGINE Started monitor thread 'Autoreloader'.
 [25/Apr/2022:00:54:22] ENGINE Serving on http://0.0.0.0
 [25/Apr/2022:00:54:22] ENGINE Bus STARTED
+[25/Apr/2022:00:59:07] ENGINE Caught signal SIGHUP.
+[25/Apr/2022:00:59:07] ENGINE SIGHUP caught but not daemonized. Exiting.
+[25/Apr/2022:00:59:07] ENGINE Bus STOPPING
+[25/Apr/2022:00:59:07] ENGINE Caught signal SIGHUP.
+[25/Apr/2022:00:59:07] ENGINE SIGHUP caught but not daemonized. Exiting.
+[25/Apr/2022:00:59:07] ENGINE Bus STOPPING
+[25/Apr/2022:00:59:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[25/Apr/2022:00:59:07] ENGINE No thread running for None.
+[25/Apr/2022:00:59:07] ENGINE Bus STOPPED
+[25/Apr/2022:00:59:07] ENGINE Bus EXITING
+[25/Apr/2022:00:59:07] ENGINE Bus EXITED
+[25/Apr/2022:00:59:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[25/Apr/2022:00:59:07] ENGINE Stopped thread 'Autoreloader'.
+[25/Apr/2022:00:59:07] ENGINE Bus STOPPED
+[25/Apr/2022:00:59:07] ENGINE Bus EXITING
+[25/Apr/2022:00:59:07] ENGINE Bus EXITED
+[25/Apr/2022:00:59:07] ENGINE Waiting for child threads to terminate...
+[25/Apr/2022:00:59:08] ENGINE Caught signal SIGTERM.
+[25/Apr/2022:00:59:08] ENGINE Bus STOPPING
+[25/Apr/2022:00:59:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[25/Apr/2022:00:59:08] ENGINE No thread running for None.
+[25/Apr/2022:00:59:08] ENGINE Bus STOPPED
+[25/Apr/2022:00:59:08] ENGINE Bus EXITING
+[25/Apr/2022:00:59:08] ENGINE Bus EXITED
+[25/Apr/2022:00:59:08] ENGINE Caught signal SIGHUP.
+[25/Apr/2022:00:59:08] ENGINE SIGHUP caught but not daemonized. Exiting.
+[25/Apr/2022:00:59:08] ENGINE Bus STOPPING
+[25/Apr/2022:00:59:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[25/Apr/2022:00:59:08] ENGINE No thread running for None.
+[25/Apr/2022:00:59:08] ENGINE Bus STOPPED
+[25/Apr/2022:00:59:08] ENGINE Bus EXITING
+[25/Apr/2022:00:59:08] ENGINE Bus EXITED
