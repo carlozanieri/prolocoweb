@@ -21,8 +21,11 @@ class HelloWorld():
 
             page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
         
-        elif cherrypy.url() == 'http://django.carlozanieri.it/':
-            tmpl = env.get_template('carlozanieridjango.html')
+        elif cherrypy.url() == 'http://blog.carlozanieri.it/':
+            tmpl = env.get_template('carlozanieriblog.html')
+                
+        elif cherrypy.url() == 'http://web.carlozanieri.it/':
+            tmpl = env.get_template('carlozanieriweb.html')
 
             page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
         
