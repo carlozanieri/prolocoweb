@@ -209,7 +209,7 @@ class Connect:
         cursor.execute("SELECT *  from news")
         ##cursor.execute("SELECT *  from slider")
         rows = cursor.fetchall()
-        news = [dict(id=row[0], title=row[3], dir=row[9], img=row[7], html=row[5], date=row[6]) for row in rows]
+        news = [dict(id=row[0], title=row[2], dir=row[8], img=row[7], html=row[4], date=row[6]) for row in rows]
         # menu = primanota[1]["descrizione"]
         return news
 
