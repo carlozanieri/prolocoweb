@@ -85,7 +85,7 @@ class HelloWorld():
         #titolo=request.POST['titolo']
         tmp=env.get_template('news_one.html')
         #id=request.POST['id']
-        return tmp.render(pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news_one("",titolo, id))
+        return tmp.render(pagina=Connect.body("", "sanpiero"), manifestazione="Blog", news=Connect.news_one("",titolo, id))
     
     @cherrypy.expose
     def sanpiero(self):

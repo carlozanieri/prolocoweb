@@ -13037,3 +13037,79 @@ Request Headers:
 [03/May/2022:15:24:03] ENGINE Started monitor thread 'Autoreloader'.
 [03/May/2022:15:24:03] ENGINE Serving on http://0.0.0.0
 [03/May/2022:15:24:03] ENGINE Bus STARTED
+[03/May/2022:16:28:08] ENGINE Caught signal SIGTERM.
+[03/May/2022:16:28:08] ENGINE Bus STOPPING
+[03/May/2022:16:28:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:16:28:08] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:16:28:08] ENGINE Bus STOPPED
+[03/May/2022:16:28:08] ENGINE Bus EXITING
+[03/May/2022:16:28:08] ENGINE Bus EXITED
+[03/May/2022:16:28:08] ENGINE Waiting for child threads to terminate...
+[03/May/2022:16:28:32] ENGINE Listening for SIGTERM.
+[03/May/2022:16:28:32] ENGINE Listening for SIGHUP.
+[03/May/2022:16:28:32] ENGINE Listening for SIGUSR1.
+[03/May/2022:16:28:32] ENGINE Bus STARTING
+[03/May/2022:16:28:32] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:16:28:32] ENGINE Serving on http://0.0.0.0
+[03/May/2022:16:28:32] ENGINE Bus STARTED
+[03/May/2022:16:30:33] ENGINE Caught signal SIGTERM.
+[03/May/2022:16:30:33] ENGINE Bus STOPPING
+[03/May/2022:16:30:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:16:30:34] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:16:30:34] ENGINE Bus STOPPED
+[03/May/2022:16:30:34] ENGINE Bus EXITING
+[03/May/2022:16:30:34] ENGINE Bus EXITED
+[03/May/2022:16:30:34] ENGINE Waiting for child threads to terminate...
+[03/May/2022:16:30:54] ENGINE Listening for SIGTERM.
+[03/May/2022:16:30:54] ENGINE Listening for SIGHUP.
+[03/May/2022:16:30:54] ENGINE Listening for SIGUSR1.
+[03/May/2022:16:30:54] ENGINE Bus STARTING
+[03/May/2022:16:30:54] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:16:30:54] ENGINE Serving on http://0.0.0.0
+[03/May/2022:16:30:54] ENGINE Bus STARTED
+[03/May/2022:16:41:09] ENGINE Caught signal SIGTERM.
+[03/May/2022:16:41:09] ENGINE Bus STOPPING
+[03/May/2022:16:41:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:16:41:09] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:16:41:09] ENGINE Bus STOPPED
+[03/May/2022:16:41:09] ENGINE Bus EXITING
+[03/May/2022:16:41:09] ENGINE Bus EXITED
+[03/May/2022:16:41:09] ENGINE Waiting for child threads to terminate...
+[03/May/2022:19:36:16] ENGINE Listening for SIGTERM.
+[03/May/2022:19:36:16] ENGINE Listening for SIGHUP.
+[03/May/2022:19:36:16] ENGINE Listening for SIGUSR1.
+[03/May/2022:19:36:16] ENGINE Bus STARTING
+[03/May/2022:19:36:16] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:19:36:16] ENGINE Serving on http://0.0.0.0
+[03/May/2022:19:36:16] ENGINE Bus STARTED
+[03/May/2022:20:04:43] ENGINE Keyboard Interrupt: shutting down bus
+[03/May/2022:20:04:43] ENGINE Bus STOPPING
+[03/May/2022:20:04:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:20:04:44] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:20:04:44] ENGINE Bus STOPPED
+[03/May/2022:20:04:44] ENGINE Bus EXITING
+[03/May/2022:20:04:44] ENGINE Bus EXITED
+[03/May/2022:20:04:44] ENGINE Waiting for child threads to terminate...
+[03/May/2022:21:51:43] ENGINE Listening for SIGTERM.
+[03/May/2022:21:51:43] ENGINE Listening for SIGHUP.
+[03/May/2022:21:51:43] ENGINE Listening for SIGUSR1.
+[03/May/2022:21:51:43] ENGINE Bus STARTING
+[03/May/2022:21:51:43] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:21:51:44] ENGINE Serving on http://0.0.0.0
+[03/May/2022:21:51:44] ENGINE Bus STARTED
+[03/May/2022:21:56:13] ENGINE Caught signal SIGHUP.
+[03/May/2022:21:56:13] ENGINE SIGHUP caught but not daemonized. Exiting.
+[03/May/2022:21:56:13] ENGINE Bus STOPPING
+[03/May/2022:21:56:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:21:56:13] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:21:56:13] ENGINE Bus STOPPED
+[03/May/2022:21:56:13] ENGINE Bus EXITING
+[03/May/2022:21:56:13] ENGINE Bus EXITED
+[03/May/2022:21:56:13] ENGINE Waiting for child threads to terminate...
+[03/May/2022:21:56:40] ENGINE Listening for SIGTERM.
+[03/May/2022:21:56:40] ENGINE Listening for SIGHUP.
+[03/May/2022:21:56:40] ENGINE Listening for SIGUSR1.
+[03/May/2022:21:56:40] ENGINE Bus STARTING
+[03/May/2022:21:56:40] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:21:56:40] ENGINE Serving on http://0.0.0.0
+[03/May/2022:21:56:40] ENGINE Bus STARTED
