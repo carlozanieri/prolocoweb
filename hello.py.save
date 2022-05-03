@@ -79,7 +79,15 @@ class HelloWorld():
         return tmp.render(luogo = "sanpiero", slider=Connect.slider("", luogo), renderer="json")
 
 
-    
+    @cherrypy.expose
+    def newss(self,*url_parts, **params):
+
+        
+        tmp=env.get_template('news.html')
+        with urllib.request.urlopen('http://localhost/') as response:
+            html=response.read()
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), urlx=html)
+
     @cherrypy.expose
     def news_one(request,titolo,id):
         #titolo=request.POST['titolo']
@@ -129,7 +137,14 @@ class HelloWorld():
         return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""))
         return Response(' File  ' + filename + '  salvato correttamente' )
     
-    
+    @cherrypy.expose
+    def blog(self,*url_parts, **params):
+ 
+        tmp=env.get_template('blog.html')
+        with urllib.request.urlopen('http://localhost') as response:
+            html=response.read()
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="news", news=Connect.news(""), urlx=html)
+
     @cherrypy.expose
     def blog(self,*url_parts, **params):
                 

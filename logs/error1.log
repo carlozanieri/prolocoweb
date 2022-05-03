@@ -12334,3 +12334,706 @@ Request Headers:
 [25/Apr/2022:00:59:08] ENGINE Bus STOPPED
 [25/Apr/2022:00:59:08] ENGINE Bus EXITING
 [25/Apr/2022:00:59:08] ENGINE Bus EXITED
+[03/May/2022:10:32:40] ENGINE Listening for SIGTERM.
+[03/May/2022:10:32:40] ENGINE Listening for SIGHUP.
+[03/May/2022:10:32:40] ENGINE Listening for SIGUSR1.
+[03/May/2022:10:32:40] ENGINE Bus STARTING
+[03/May/2022:10:32:40] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:10:32:40] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1849, in start
+    self.prepare()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1804, in prepare
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission denied)
+
+[03/May/2022:10:32:40] ENGINE Bus STOPPING
+[03/May/2022:10:32:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[03/May/2022:10:32:40] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:10:32:40] ENGINE Bus STOPPED
+[03/May/2022:10:32:40] ENGINE Bus EXITING
+[03/May/2022:10:32:40] ENGINE Bus EXITED
+[03/May/2022:10:32:53] ENGINE Listening for SIGTERM.
+[03/May/2022:10:32:53] ENGINE Listening for SIGHUP.
+[03/May/2022:10:32:53] ENGINE Listening for SIGUSR1.
+[03/May/2022:10:32:53] ENGINE Bus STARTING
+[03/May/2022:10:32:53] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:10:32:53] ENGINE Serving on http://0.0.0.0
+[03/May/2022:10:32:53] ENGINE Bus STARTED
+[03/May/2022:10:38:32] ENGINE Keyboard Interrupt: shutting down bus
+[03/May/2022:10:38:32] ENGINE Bus STOPPING
+[03/May/2022:10:38:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:10:38:32] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:10:38:32] ENGINE Bus STOPPED
+[03/May/2022:10:38:32] ENGINE Bus EXITING
+[03/May/2022:10:38:32] ENGINE Bus EXITED
+[03/May/2022:10:38:32] ENGINE Waiting for child threads to terminate...
+[03/May/2022:10:40:38] ENGINE Listening for SIGTERM.
+[03/May/2022:10:40:38] ENGINE Listening for SIGHUP.
+[03/May/2022:10:40:38] ENGINE Listening for SIGUSR1.
+[03/May/2022:10:40:38] ENGINE Bus STARTING
+[03/May/2022:10:40:38] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:10:40:38] ENGINE Serving on http://0.0.0.0
+[03/May/2022:10:40:38] ENGINE Bus STARTED
+[03/May/2022:11:09:38] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:11:09:38] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:09:38] ENGINE Bus STOPPING
+[03/May/2022:11:09:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:09:39] ENGINE Bus STOPPED
+[03/May/2022:11:09:39] ENGINE Bus EXITING
+[03/May/2022:11:09:39] ENGINE Bus EXITED
+[03/May/2022:11:09:39] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:09:39] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:11:09:40] ENGINE Listening for SIGTERM.
+[03/May/2022:11:09:40] ENGINE Listening for SIGHUP.
+[03/May/2022:11:09:40] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:09:40] ENGINE Bus STARTING
+[03/May/2022:11:09:40] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:09:40] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:09:40] ENGINE Bus STARTED
+[03/May/2022:11:09:58] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:11:09:58] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:09:58] ENGINE Bus STOPPING
+[03/May/2022:11:09:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:09:58] ENGINE Bus STOPPED
+[03/May/2022:11:09:58] ENGINE Bus EXITING
+[03/May/2022:11:09:58] ENGINE Bus EXITED
+[03/May/2022:11:09:58] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:09:58] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:11:09:59] ENGINE Listening for SIGTERM.
+[03/May/2022:11:09:59] ENGINE Listening for SIGHUP.
+[03/May/2022:11:09:59] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:09:59] ENGINE Bus STARTING
+[03/May/2022:11:09:59] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:10:00] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:10:00] ENGINE Bus STARTED
+[03/May/2022:11:12:41] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:11:12:41] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:12:41] ENGINE Bus STOPPING
+[03/May/2022:11:12:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:12:42] ENGINE Bus STOPPED
+[03/May/2022:11:12:42] ENGINE Bus EXITING
+[03/May/2022:11:12:42] ENGINE Bus EXITED
+[03/May/2022:11:12:42] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:12:42] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:11:12:43] ENGINE Listening for SIGTERM.
+[03/May/2022:11:12:43] ENGINE Listening for SIGHUP.
+[03/May/2022:11:12:43] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:12:43] ENGINE Bus STARTING
+[03/May/2022:11:12:43] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:12:43] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:12:43] ENGINE Bus STARTED
+[03/May/2022:11:26:40] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:11:26:40] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:26:40] ENGINE Bus STOPPING
+[03/May/2022:11:26:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:26:40] ENGINE Bus STOPPED
+[03/May/2022:11:26:40] ENGINE Bus EXITING
+[03/May/2022:11:26:40] ENGINE Bus EXITED
+[03/May/2022:11:26:40] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:26:40] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:11:26:41] ENGINE Listening for SIGTERM.
+[03/May/2022:11:26:41] ENGINE Listening for SIGHUP.
+[03/May/2022:11:26:41] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:26:41] ENGINE Bus STARTING
+[03/May/2022:11:26:41] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:26:42] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:26:42] ENGINE Bus STARTED
+[03/May/2022:11:27:36] ENGINE Caught signal SIGTERM.
+[03/May/2022:11:27:36] ENGINE Bus STOPPING
+[03/May/2022:11:27:36] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib/python3.10/http/client.py", line 941, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 122, in blog
+    with urllib.request.urlopen('http://localhost/') as response:
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 104] Connection reset by peer>
+[03/May/2022:11:27:36] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: text/css,*/*;q=0.1
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/blog/static/static/static/static/static/static/riquadro.html
+  COOKIE: csrftoken=AFIIFQXihzN8sNlVZfqgWEidjlVy83zF92N5bVlpDTgirEUxbwzK0IMwOl9Y1w0y; sessionid=mti46jbtbe5tp8gwii3rpa5b3mx0eh26
+  SEC-FETCH-DEST: style
+  SEC-FETCH-MODE: no-cors
+  SEC-FETCH-SITE: same-origin
+[03/May/2022:11:27:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:27:37] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:27:37] ENGINE Bus STOPPED
+[03/May/2022:11:27:37] ENGINE Bus EXITING
+[03/May/2022:11:27:37] ENGINE Bus EXITED
+[03/May/2022:11:27:37] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:27:37] ENGINE Listening for SIGTERM.
+[03/May/2022:11:27:37] ENGINE Listening for SIGHUP.
+[03/May/2022:11:27:37] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:27:37] ENGINE Bus STARTING
+[03/May/2022:11:27:37] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:27:38] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:27:38] ENGINE Bus STARTED
+[03/May/2022:11:30:33] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:11:30:33] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:30:33] ENGINE Bus STOPPING
+[03/May/2022:11:30:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:30:34] ENGINE Bus STOPPED
+[03/May/2022:11:30:34] ENGINE Bus EXITING
+[03/May/2022:11:30:34] ENGINE Bus EXITED
+[03/May/2022:11:30:34] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:30:34] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:11:30:36] ENGINE Listening for SIGTERM.
+[03/May/2022:11:30:36] ENGINE Listening for SIGHUP.
+[03/May/2022:11:30:36] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:30:36] ENGINE Bus STARTING
+[03/May/2022:11:30:36] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:30:36] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:30:36] ENGINE Bus STARTED
+[03/May/2022:11:31:40] ENGINE Caught signal SIGTERM.
+[03/May/2022:11:31:40] ENGINE Bus STOPPING
+[03/May/2022:11:33:37] ENGINE Listening for SIGTERM.
+[03/May/2022:11:33:37] ENGINE Listening for SIGHUP.
+[03/May/2022:11:33:37] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:33:37] ENGINE Bus STARTING
+[03/May/2022:11:33:37] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:33:37] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:33:37] ENGINE Bus STARTED
+[03/May/2022:11:37:57] ENGINE Caught signal SIGTERM.
+[03/May/2022:11:37:57] ENGINE Bus STOPPING
+[03/May/2022:11:40:44] ENGINE Listening for SIGTERM.
+[03/May/2022:11:40:44] ENGINE Listening for SIGHUP.
+[03/May/2022:11:40:44] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:40:44] ENGINE Bus STARTING
+[03/May/2022:11:40:44] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:40:44] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/servers.py", line 225, in _start_http_thread
+    self.httpserver.start()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1849, in start
+    self.prepare()
+  File "/usr/lib/python3.10/site-packages/cheroot/server.py", line 1804, in prepare
+    raise socket.error(msg)
+OSError: No socket could be created -- (('0.0.0.0', 80): [Errno 13] Permission denied)
+
+[03/May/2022:11:40:44] ENGINE Bus STOPPING
+[03/May/2022:11:40:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[03/May/2022:11:40:44] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:40:44] ENGINE Bus STOPPED
+[03/May/2022:11:40:44] ENGINE Bus EXITING
+[03/May/2022:11:40:44] ENGINE Bus EXITED
+[03/May/2022:11:41:11] ENGINE Listening for SIGTERM.
+[03/May/2022:11:41:11] ENGINE Listening for SIGHUP.
+[03/May/2022:11:41:11] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:41:11] ENGINE Bus STARTING
+[03/May/2022:11:41:11] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:41:11] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:41:11] ENGINE Bus STARTED
+[03/May/2022:11:42:52] ENGINE Keyboard Interrupt: shutting down bus
+[03/May/2022:11:42:52] ENGINE Bus STOPPING
+[03/May/2022:11:44:47] ENGINE Listening for SIGTERM.
+[03/May/2022:11:44:47] ENGINE Listening for SIGHUP.
+[03/May/2022:11:44:47] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:44:47] ENGINE Bus STARTING
+[03/May/2022:11:44:47] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:44:47] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:44:47] ENGINE Bus STARTED
+[03/May/2022:11:47:58] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:11:47:58] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:47:58] ENGINE Bus STOPPING
+[03/May/2022:11:48:07] ENGINE Keyboard Interrupt: shutting down bus
+[03/May/2022:11:48:07] ENGINE Bus STOPPING
+[03/May/2022:11:48:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:48:07] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:48:07] ENGINE Bus STOPPED
+[03/May/2022:11:48:07] ENGINE Bus EXITING
+[03/May/2022:11:48:07] ENGINE Bus EXITED
+[03/May/2022:11:48:07] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:48:07] ENGINE Waiting for thread ('CP Server Thread-3',).
+[03/May/2022:11:48:49] ENGINE Listening for SIGTERM.
+[03/May/2022:11:48:49] ENGINE Listening for SIGHUP.
+[03/May/2022:11:48:49] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:48:49] ENGINE Bus STARTING
+[03/May/2022:11:48:49] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:48:49] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:48:49] ENGINE Bus STARTED
+[03/May/2022:11:52:37] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:11:52:37] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:52:37] ENGINE Bus STOPPING
+[03/May/2022:11:52:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:52:37] ENGINE Bus STOPPED
+[03/May/2022:11:52:37] ENGINE Bus EXITING
+[03/May/2022:11:52:37] ENGINE Bus EXITED
+[03/May/2022:11:52:37] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:52:37] ENGINE Re-spawning python hello.py
+[03/May/2022:11:52:39] ENGINE Listening for SIGTERM.
+[03/May/2022:11:52:39] ENGINE Listening for SIGHUP.
+[03/May/2022:11:52:39] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:52:39] ENGINE Bus STARTING
+[03/May/2022:11:52:39] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:52:39] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:52:39] ENGINE Bus STARTED
+[03/May/2022:11:53:29] ENGINE Keyboard Interrupt: shutting down bus
+[03/May/2022:11:53:29] ENGINE Bus STOPPING
+[03/May/2022:11:53:30] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:11:53:30] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:11:53:30] ENGINE Bus STOPPED
+[03/May/2022:11:53:30] ENGINE Bus EXITING
+[03/May/2022:11:53:30] ENGINE Bus EXITED
+[03/May/2022:11:53:30] ENGINE Waiting for child threads to terminate...
+[03/May/2022:11:53:35] ENGINE Listening for SIGTERM.
+[03/May/2022:11:53:35] ENGINE Listening for SIGHUP.
+[03/May/2022:11:53:35] ENGINE Listening for SIGUSR1.
+[03/May/2022:11:53:35] ENGINE Bus STARTING
+[03/May/2022:11:53:35] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:11:53:35] ENGINE Serving on http://0.0.0.0
+[03/May/2022:11:53:35] ENGINE Bus STARTED
+[03/May/2022:12:09:43] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:12:09:43] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:12:09:43] ENGINE Bus STOPPING
+[03/May/2022:12:09:43] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:12:09:43] ENGINE Bus STOPPED
+[03/May/2022:12:09:43] ENGINE Bus EXITING
+[03/May/2022:12:09:43] ENGINE Bus EXITED
+[03/May/2022:12:09:43] ENGINE Waiting for child threads to terminate...
+[03/May/2022:12:09:43] ENGINE Re-spawning python hello.py
+[03/May/2022:12:09:45] ENGINE Listening for SIGTERM.
+[03/May/2022:12:09:45] ENGINE Listening for SIGHUP.
+[03/May/2022:12:09:45] ENGINE Listening for SIGUSR1.
+[03/May/2022:12:09:45] ENGINE Bus STARTING
+[03/May/2022:12:09:45] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:12:09:45] ENGINE Serving on http://0.0.0.0
+[03/May/2022:12:09:45] ENGINE Bus STARTED
+[03/May/2022:12:13:38] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:12:13:38] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:12:13:38] ENGINE Bus STOPPING
+[03/May/2022:12:13:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:12:13:38] ENGINE Bus STOPPED
+[03/May/2022:12:13:38] ENGINE Bus EXITING
+[03/May/2022:12:13:38] ENGINE Bus EXITED
+[03/May/2022:12:13:38] ENGINE Waiting for child threads to terminate...
+[03/May/2022:12:13:38] ENGINE Re-spawning python hello.py
+[03/May/2022:12:13:40] ENGINE Listening for SIGTERM.
+[03/May/2022:12:13:40] ENGINE Listening for SIGHUP.
+[03/May/2022:12:13:40] ENGINE Listening for SIGUSR1.
+[03/May/2022:12:13:40] ENGINE Bus STARTING
+[03/May/2022:12:13:40] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:12:13:40] ENGINE Serving on http://0.0.0.0
+[03/May/2022:12:13:40] ENGINE Bus STARTED
+[03/May/2022:12:19:15] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:12:19:15] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:12:19:15] ENGINE Bus STOPPING
+[03/May/2022:12:19:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:12:19:15] ENGINE Bus STOPPED
+[03/May/2022:12:19:15] ENGINE Bus EXITING
+[03/May/2022:12:19:15] ENGINE Bus EXITED
+[03/May/2022:12:19:15] ENGINE Waiting for child threads to terminate...
+[03/May/2022:12:19:15] ENGINE Re-spawning python hello.py
+[03/May/2022:12:19:17] ENGINE Listening for SIGTERM.
+[03/May/2022:12:19:17] ENGINE Listening for SIGHUP.
+[03/May/2022:12:19:17] ENGINE Listening for SIGUSR1.
+[03/May/2022:12:19:17] ENGINE Bus STARTING
+[03/May/2022:12:19:17] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:12:19:17] ENGINE Serving on http://0.0.0.0
+[03/May/2022:12:19:17] ENGINE Bus STARTED
+[03/May/2022:12:19:28] ENGINE Caught signal SIGHUP.
+[03/May/2022:12:19:28] ENGINE Caught signal SIGHUP.
+[03/May/2022:12:19:28] ENGINE Caught signal SIGHUP.
+[03/May/2022:12:19:28] ENGINE SIGHUP caught but not daemonized. Exiting.
+[03/May/2022:12:19:28] ENGINE SIGHUP caught but not daemonized. Exiting.
+[03/May/2022:12:19:28] ENGINE Bus STOPPING
+[03/May/2022:12:19:28] ENGINE Bus STOPPING
+[03/May/2022:12:19:28] ENGINE SIGHUP caught but not daemonized. Exiting.
+[03/May/2022:12:19:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[03/May/2022:12:19:28] ENGINE No thread running for None.
+[03/May/2022:12:19:28] ENGINE Bus STOPPING
+[03/May/2022:12:19:28] ENGINE Bus STOPPED
+[03/May/2022:12:19:28] ENGINE Bus EXITING
+[03/May/2022:12:19:28] ENGINE Bus EXITED
+[03/May/2022:12:19:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:12:19:28] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:12:19:28] ENGINE Bus STOPPED
+[03/May/2022:12:19:28] ENGINE Bus EXITING
+[03/May/2022:12:19:28] ENGINE Bus EXITED
+[03/May/2022:12:19:28] ENGINE Waiting for child threads to terminate...
+[03/May/2022:12:19:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:12:19:28] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:12:19:28] ENGINE Bus STOPPED
+[03/May/2022:12:19:28] ENGINE Bus EXITING
+[03/May/2022:12:19:28] ENGINE Bus EXITED
+[03/May/2022:12:19:28] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:12:19:28] ENGINE Error in background task thread function <bound method Autoreloader.run of <cherrypy.process.plugins.Autoreloader object at 0x7f283d1a1d20>>.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/plugins.py", line 517, in run
+    self.function(*self.args, **self.kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/process/plugins.py", line 693, in run
+    self.thread.cancel()
+AttributeError: 'NoneType' object has no attribute 'cancel'
+
+[03/May/2022:12:19:29] ENGINE Caught signal SIGTERM.
+[03/May/2022:12:19:29] ENGINE Bus STOPPING
+[03/May/2022:12:19:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[03/May/2022:12:19:29] ENGINE No thread running for None.
+[03/May/2022:12:19:29] ENGINE Bus STOPPED
+[03/May/2022:12:19:29] ENGINE Bus EXITING
+[03/May/2022:12:19:29] ENGINE Bus EXITED
+[03/May/2022:12:19:29] ENGINE Caught signal SIGTERM.
+[03/May/2022:12:19:29] ENGINE Bus STOPPING
+[03/May/2022:12:19:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[03/May/2022:12:19:29] ENGINE No thread running for None.
+[03/May/2022:12:19:29] ENGINE Bus STOPPED
+[03/May/2022:12:19:29] ENGINE Bus EXITING
+[03/May/2022:12:19:29] ENGINE Bus EXITED
+[03/May/2022:12:19:29] ENGINE Caught signal SIGTERM.
+[03/May/2022:12:19:29] ENGINE Bus STOPPING
+[03/May/2022:12:19:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[03/May/2022:12:19:29] ENGINE No thread running for None.
+[03/May/2022:12:19:29] ENGINE Bus STOPPED
+[03/May/2022:12:19:29] ENGINE Caught signal SIGHUP.
+[03/May/2022:12:19:29] ENGINE Bus EXITING
+[03/May/2022:12:19:29] ENGINE Bus EXITED
+[03/May/2022:12:19:29] ENGINE SIGHUP caught but not daemonized. Exiting.
+[03/May/2022:12:19:29] ENGINE Bus STOPPING
+[03/May/2022:12:19:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[03/May/2022:12:19:29] ENGINE No thread running for None.
+[03/May/2022:12:19:29] ENGINE Bus STOPPED
+[03/May/2022:12:19:29] ENGINE Bus EXITING
+[03/May/2022:12:19:29] ENGINE Bus EXITED
+[03/May/2022:12:21:45] ENGINE Listening for SIGTERM.
+[03/May/2022:12:21:45] ENGINE Listening for SIGHUP.
+[03/May/2022:12:21:45] ENGINE Listening for SIGUSR1.
+[03/May/2022:12:21:45] ENGINE Bus STARTING
+[03/May/2022:12:21:45] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:12:21:45] ENGINE Serving on http://0.0.0.0
+[03/May/2022:12:21:45] ENGINE Bus STARTED
+[03/May/2022:14:51:18] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:14:51:18] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:14:51:18] ENGINE Bus STOPPING
+[03/May/2022:14:51:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:14:51:19] ENGINE Bus STOPPED
+[03/May/2022:14:51:19] ENGINE Bus EXITING
+[03/May/2022:14:51:19] ENGINE Bus EXITED
+[03/May/2022:14:51:19] ENGINE Waiting for child threads to terminate...
+[03/May/2022:14:51:19] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:14:51:20] ENGINE Listening for SIGTERM.
+[03/May/2022:14:51:20] ENGINE Listening for SIGHUP.
+[03/May/2022:14:51:20] ENGINE Listening for SIGUSR1.
+[03/May/2022:14:51:20] ENGINE Bus STARTING
+[03/May/2022:14:51:20] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:14:51:20] ENGINE Serving on http://0.0.0.0
+[03/May/2022:14:51:20] ENGINE Bus STARTED
+[03/May/2022:14:54:07] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:14:54:07] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:14:54:07] ENGINE Bus STOPPING
+[03/May/2022:14:54:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:14:54:07] ENGINE Bus STOPPED
+[03/May/2022:14:54:07] ENGINE Bus EXITING
+[03/May/2022:14:54:07] ENGINE Bus EXITED
+[03/May/2022:14:54:08] ENGINE Waiting for child threads to terminate...
+[03/May/2022:14:54:08] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:14:54:09] ENGINE Listening for SIGTERM.
+[03/May/2022:14:54:09] ENGINE Listening for SIGHUP.
+[03/May/2022:14:54:09] ENGINE Listening for SIGUSR1.
+[03/May/2022:14:54:09] ENGINE Bus STARTING
+[03/May/2022:14:54:09] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:14:54:09] ENGINE Serving on http://0.0.0.0
+[03/May/2022:14:54:09] ENGINE Bus STARTED
+[03/May/2022:14:55:36] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:14:55:36] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:14:55:36] ENGINE Bus STOPPING
+[03/May/2022:14:55:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:14:55:37] ENGINE Bus STOPPED
+[03/May/2022:14:55:37] ENGINE Bus EXITING
+[03/May/2022:14:55:37] ENGINE Bus EXITED
+[03/May/2022:14:55:37] ENGINE Waiting for child threads to terminate...
+[03/May/2022:14:55:37] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:14:55:39] ENGINE Listening for SIGTERM.
+[03/May/2022:14:55:39] ENGINE Listening for SIGHUP.
+[03/May/2022:14:55:39] ENGINE Listening for SIGUSR1.
+[03/May/2022:14:55:39] ENGINE Bus STARTING
+[03/May/2022:14:55:39] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:14:55:39] ENGINE Serving on http://0.0.0.0
+[03/May/2022:14:55:39] ENGINE Bus STARTED
+[03/May/2022:14:59:18] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:14:59:18] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:14:59:18] ENGINE Bus STOPPING
+[03/May/2022:14:59:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:14:59:18] ENGINE Bus STOPPED
+[03/May/2022:14:59:18] ENGINE Bus EXITING
+[03/May/2022:14:59:18] ENGINE Bus EXITED
+[03/May/2022:14:59:18] ENGINE Waiting for child threads to terminate...
+[03/May/2022:14:59:18] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:14:59:19] ENGINE Listening for SIGTERM.
+[03/May/2022:14:59:19] ENGINE Listening for SIGHUP.
+[03/May/2022:14:59:19] ENGINE Listening for SIGUSR1.
+[03/May/2022:14:59:19] ENGINE Bus STARTING
+[03/May/2022:14:59:19] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:14:59:20] ENGINE Serving on http://0.0.0.0
+[03/May/2022:14:59:20] ENGINE Bus STARTED
+[03/May/2022:15:00:24] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:00:24] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:00:24] ENGINE Bus STOPPING
+[03/May/2022:15:00:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:00:25] ENGINE Bus STOPPED
+[03/May/2022:15:00:25] ENGINE Bus EXITING
+[03/May/2022:15:00:25] ENGINE Bus EXITED
+[03/May/2022:15:00:25] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:00:25] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:00:26] ENGINE Listening for SIGTERM.
+[03/May/2022:15:00:26] ENGINE Listening for SIGHUP.
+[03/May/2022:15:00:26] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:00:26] ENGINE Bus STARTING
+[03/May/2022:15:00:26] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:00:26] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:00:26] ENGINE Bus STARTED
+[03/May/2022:15:02:14] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:02:14] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:02:14] ENGINE Bus STOPPING
+[03/May/2022:15:02:14] HTTP 
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/urllib/request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/usr/lib/python3.10/http/client.py", line 941, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.10/socket.py", line 845, in create_connection
+    raise err
+  File "/usr/lib/python3.10/socket.py", line 833, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 638, in respond
+    self._do_respond(path_info)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cprequest.py", line 697, in _do_respond
+    response.body = self.handler()
+  File "/usr/lib/python3.10/site-packages/cherrypy/lib/encoding.py", line 223, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/lib/python3.10/site-packages/cherrypy/_cpdispatch.py", line 54, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/carlo/AreaComune/prolocoweb/hello.py", line 145, in blog
+    html=response.read()
+  File "/usr/lib/python3.10/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.10/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.10/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/usr/lib/python3.10/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.10/urllib/request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+  File "/usr/lib/python3.10/urllib/request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
+[03/May/2022:15:02:14] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost
+  USER-AGENT: Mozilla/5.0 (X11; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0
+  ACCEPT: image/avif,image/webp,*/*
+  ACCEPT-LANGUAGE: it-IT,it;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate, br
+  CONNECTION: keep-alive
+  REFERER: http://localhost/blog/static/static/static/static/static/static/riquadro.html
+  SEC-FETCH-DEST: image
+  SEC-FETCH-MODE: no-cors
+  SEC-FETCH-SITE: same-origin
+[03/May/2022:15:02:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:02:15] ENGINE Bus STOPPED
+[03/May/2022:15:02:15] ENGINE Bus EXITING
+[03/May/2022:15:02:15] ENGINE Bus EXITED
+[03/May/2022:15:02:15] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:02:15] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:02:17] ENGINE Listening for SIGTERM.
+[03/May/2022:15:02:17] ENGINE Listening for SIGHUP.
+[03/May/2022:15:02:17] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:02:17] ENGINE Bus STARTING
+[03/May/2022:15:02:17] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:02:17] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:02:17] ENGINE Bus STARTED
+[03/May/2022:15:07:25] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:07:25] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:07:25] ENGINE Bus STOPPING
+[03/May/2022:15:08:10] ENGINE Caught signal SIGTERM.
+[03/May/2022:15:08:10] ENGINE Bus STOPPING
+[03/May/2022:15:08:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:08:10] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:08:10] ENGINE Bus STOPPED
+[03/May/2022:15:08:10] ENGINE Bus EXITING
+[03/May/2022:15:08:10] ENGINE Bus EXITED
+[03/May/2022:15:08:10] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:08:10] ENGINE Waiting for thread ('CP Server Thread-3',).
+[03/May/2022:15:09:41] ENGINE Listening for SIGTERM.
+[03/May/2022:15:09:41] ENGINE Listening for SIGHUP.
+[03/May/2022:15:09:41] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:09:41] ENGINE Bus STARTING
+[03/May/2022:15:09:41] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:09:41] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:09:41] ENGINE Bus STARTED
+[03/May/2022:15:14:19] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:14:19] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:14:19] ENGINE Bus STOPPING
+[03/May/2022:15:14:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:14:19] ENGINE Bus STOPPED
+[03/May/2022:15:14:19] ENGINE Bus EXITING
+[03/May/2022:15:14:19] ENGINE Bus EXITED
+[03/May/2022:15:14:19] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:14:19] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:14:21] ENGINE Listening for SIGTERM.
+[03/May/2022:15:14:21] ENGINE Listening for SIGHUP.
+[03/May/2022:15:14:21] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:14:21] ENGINE Bus STARTING
+[03/May/2022:15:14:21] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:14:21] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:14:21] ENGINE Bus STARTED
+[03/May/2022:15:14:40] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:14:40] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:14:40] ENGINE Bus STOPPING
+[03/May/2022:15:14:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:14:40] ENGINE Bus STOPPED
+[03/May/2022:15:14:40] ENGINE Bus EXITING
+[03/May/2022:15:14:40] ENGINE Bus EXITED
+[03/May/2022:15:14:40] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:14:40] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:14:42] ENGINE Listening for SIGTERM.
+[03/May/2022:15:14:42] ENGINE Listening for SIGHUP.
+[03/May/2022:15:14:42] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:14:42] ENGINE Bus STARTING
+[03/May/2022:15:14:42] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:14:42] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:14:42] ENGINE Bus STARTED
+[03/May/2022:15:16:15] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:16:15] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:16:15] ENGINE Bus STOPPING
+[03/May/2022:15:16:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:16:15] ENGINE Bus STOPPED
+[03/May/2022:15:16:15] ENGINE Bus EXITING
+[03/May/2022:15:16:15] ENGINE Bus EXITED
+[03/May/2022:15:16:15] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:16:15] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:16:16] ENGINE Listening for SIGTERM.
+[03/May/2022:15:16:16] ENGINE Listening for SIGHUP.
+[03/May/2022:15:16:16] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:16:16] ENGINE Bus STARTING
+[03/May/2022:15:16:16] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:16:16] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:16:16] ENGINE Bus STARTED
+[03/May/2022:15:18:15] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:18:15] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:18:15] ENGINE Bus STOPPING
+[03/May/2022:15:18:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:18:15] ENGINE Bus STOPPED
+[03/May/2022:15:18:15] ENGINE Bus EXITING
+[03/May/2022:15:18:15] ENGINE Bus EXITED
+[03/May/2022:15:18:15] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:18:15] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:18:16] ENGINE Listening for SIGTERM.
+[03/May/2022:15:18:16] ENGINE Listening for SIGHUP.
+[03/May/2022:15:18:16] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:18:16] ENGINE Bus STARTING
+[03/May/2022:15:18:16] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:18:16] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:18:16] ENGINE Bus STARTED
+[03/May/2022:15:20:19] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:20:19] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:20:19] ENGINE Bus STOPPING
+[03/May/2022:15:20:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:20:20] ENGINE Bus STOPPED
+[03/May/2022:15:20:20] ENGINE Bus EXITING
+[03/May/2022:15:20:20] ENGINE Bus EXITED
+[03/May/2022:15:20:20] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:20:20] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:20:21] ENGINE Listening for SIGTERM.
+[03/May/2022:15:20:21] ENGINE Listening for SIGHUP.
+[03/May/2022:15:20:21] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:20:21] ENGINE Bus STARTING
+[03/May/2022:15:20:21] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:20:21] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:20:21] ENGINE Bus STARTED
+[03/May/2022:15:23:04] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[03/May/2022:15:23:04] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:23:04] ENGINE Bus STOPPING
+[03/May/2022:15:23:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:23:04] ENGINE Bus STOPPED
+[03/May/2022:15:23:04] ENGINE Bus EXITING
+[03/May/2022:15:23:04] ENGINE Bus EXITED
+[03/May/2022:15:23:04] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:23:04] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[03/May/2022:15:23:06] ENGINE Listening for SIGTERM.
+[03/May/2022:15:23:06] ENGINE Listening for SIGHUP.
+[03/May/2022:15:23:06] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:23:06] ENGINE Bus STARTING
+[03/May/2022:15:23:06] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:23:06] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:23:06] ENGINE Bus STARTED
+[03/May/2022:15:23:19] ENGINE Caught signal SIGTERM.
+[03/May/2022:15:23:19] ENGINE Bus STOPPING
+[03/May/2022:15:23:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[03/May/2022:15:23:19] ENGINE Stopped thread 'Autoreloader'.
+[03/May/2022:15:23:19] ENGINE Bus STOPPED
+[03/May/2022:15:23:19] ENGINE Bus EXITING
+[03/May/2022:15:23:19] ENGINE Bus EXITED
+[03/May/2022:15:23:19] ENGINE Waiting for child threads to terminate...
+[03/May/2022:15:24:03] ENGINE Listening for SIGTERM.
+[03/May/2022:15:24:03] ENGINE Listening for SIGHUP.
+[03/May/2022:15:24:03] ENGINE Listening for SIGUSR1.
+[03/May/2022:15:24:03] ENGINE Bus STARTING
+[03/May/2022:15:24:03] ENGINE Started monitor thread 'Autoreloader'.
+[03/May/2022:15:24:03] ENGINE Serving on http://0.0.0.0
+[03/May/2022:15:24:03] ENGINE Bus STARTED
