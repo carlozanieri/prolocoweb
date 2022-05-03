@@ -11,10 +11,14 @@
   <link rel="stylesheet" type="text/css" media="all" href="static/news/css/styles.css"/>
   <script type="text/javascript" src="static/news/js/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="static/news/js/responsiveCarousel.min.js"></script>
+  
+
 </head>
-{% include 'menu.html' %}
+
 <body>
+ 
   <div id="w">
+    {% include 'menu.html' %}
     <h1>BLOG {{urlx}}</h1>
 
     <nav class="slidernav">
@@ -33,7 +37,7 @@
             <span class="postdate">{{newss.date.strftime("%d %B, %Y")}}</span>
           </div>
 
-          <h3><a href="#">{{newss.title}}</a></h3>
+          <h3><a href="/news_one?titolo={{newss.title}}&amp;id={{newss.id}}">{{newss.title}}</a></h3>
 
           <p>{{newss.html}}</p>
           <form action="/news_one" method="post" accept-charset="utf-8" enctype="multipart/form-data" target="_parent">
@@ -52,7 +56,7 @@
 <script type="text/javascript">
 $(function(){
   $('.crsl-items').carousel({
-    visible: 6,
+    visible: 8,
     itemMinWidth: 180,
     itemEqualHeight: 370,
     itemMargin: 9,
