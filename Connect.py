@@ -209,10 +209,39 @@ class Connect:
         cursor.execute("SELECT *  from news")
         ##cursor.execute("SELECT *  from slider")
         rows = cursor.fetchall()
-        news = [dict(id=row[0], title=row[2], dir=row[8], img=row[7], html=row[4], date=row[6]) for row in rows]
+        news = [dict(id=row[0], title=row[2], dir=row[8], img=row[7], html=row[4], html2=row[9], date=row[6]) for row in rows]
         # menu = primanota[1]["descrizione"]
         return news
 
+    def blog(self):
+        data =datetime.now()
+        #data = "2021-06-08 00:00:00"
+        db = MySQLdb.connect(options.mysql_host, options.mysql_user, options.mysql_password, options.mysql_database)
+        ##print(menu)
+        cursor = db.cursor()
+        ##cursor.execute("SELECT *  from blog where published <= '" + str(data) + "'")
+        cursor.execute("SELECT *  from blog")
+        ##cursor.execute("SELECT *  from slider")
+        rows = cursor.fetchall()
+        blogs = [dict(id=row[0], title=row[2], dir=row[8], img=row[7], html=row[4], html2=row[9],date=row[6]) for row in rows]
+        # menu = primanota[1]["descrizione"]
+        return blogs
+    
+    def blogs_one(self, titolo, id):
+        #data = date.today().strftime("%Y-%m-%d %H:%M:%S")
+        #data = "2021-06-08 00:00:00"
+        ##titolo=titolo
+        db = MySQLdb.connect(options.mysql_host, options.mysql_user, options.mysql_password, options.mysql_database)
+        ##print(titolo)
+        cursor = db.cursor()
+        ####cursor.execute("SELECT *  from blog where id = 3")
+        cursor.execute("SELECT *  from blog where id = '" + id + "'")
+        ##cursor.execute("SELECT *  from slider")
+        ##news = cursor.fetchall()
+        rows = cursor.fetchall()
+        blogs = [dict(id=row[0], title=row[3], dir=row[9], img=row[7], html=row[4], date=row[6]) for row in rows]
+        return blogs
+    
     def news_one(self, titolo, id):
         #data = date.today().strftime("%Y-%m-%d %H:%M:%S")
         #data = "2021-06-08 00:00:00"

@@ -1,4 +1,11 @@
+{% if pagin == "master" %}
 {% extends "master.html" %}
+
+{% elif pagin == "blog" %}
+{% extends "blog.html" %}
+{% else %}
+{% extends "master.html" %}
+{% endif %}
 
 {% block content %}
 

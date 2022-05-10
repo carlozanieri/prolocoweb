@@ -6,20 +6,20 @@ import configparser
 import urllib
 from urllib.request import urlopen
 from jinja2 import Environment, FileSystemLoader
-from Connect import Connect
+from  Connect import Connect
 env = Environment(loader=FileSystemLoader('templates'))
 class HelloWorld():
     @cherrypy.expose
-    def index(self):
+    def index(self,pagin):
         tmpl = env.get_template('mytemplate.html')
         if cherrypy.url() == 'http://carlozanieri.it/':
             tmpl = env.get_template('mytemplate.html')
 
-            page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
+            page= tmpl.render(blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
         elif cherrypy.url() == 'http://blog.carlozanieri.it/':
             tmpl = env.get_template('carlozanieriblog.html')
 
-            page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
+            page= tmpl.render(blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
         
         elif cherrypy.url() == 'http://blog.carlozanieri.it/':
             tmpl = env.get_template('carlozanieriblog.html')
@@ -27,22 +27,28 @@ class HelloWorld():
         elif cherrypy.url() == 'http://web.carlozanieri.it/':
             tmpl = env.get_template('carlozanieriweb.html')
 
-            page= tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
+            page= tmpl.render( blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
         
         elif cherrypy.url() == 'http://linuxmugello.net/' :
             tmpl = env.get_template('mytemplate.html')
-            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+            page = tmpl.render( blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         elif cherrypy.url() == 'http://localhost/' :
             tmpl = env.get_template('mytemplate.html')
-            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+            page = tmpl.render(pagin=pagin,blogs=Connect.blog(""), target='World',  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+        
+        elif cherrypy.url() == 'http://localhost/?pagin=blog' :
+            tmpl = env.get_template('mytemplate.html')
+            page = tmpl.render(pagin="blog",blogs=Connect.blog(""), target='World',  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+        
         
         elif cherrypy.url() == 'http://0.0.0.0/' :
             tmpl = env.get_template('index.html')
-            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+            page = tmpl.render(blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         
         else:
             tmpl = env.get_template('mytemplate.html')
-            page = tmpl.render(salutation='Hello', target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "sanpiero"),  luogo = "sanpiero", urlx=cherrypy.url())
+            pag="blog"
+            page = tmpl.render(pagin="master",blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "sanpiero"),  luogo = "sanpiero", news=Connect.news(""),urlx=cherrypy.url())
                  
 
         return page
@@ -64,7 +70,7 @@ class HelloWorld():
     
     @cherrypy.expose
     def menu(self):
-        tmp=env.get_template('menu.html')
+        tmp=env.get_template('menu5.html')
         streamValue=tmp.generate()
         return tmp.render(salutation='Menu', target='World',menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"), renderer='json')
         
@@ -87,6 +93,12 @@ class HelloWorld():
         #id=request.POST['id']
         return tmp.render(pagina=Connect.body("", "sanpiero"), manifestazione="Blog", news=Connect.news_one("",titolo, id))
     
+    @cherrypy.expose
+    def blogs_one(request,titolo,id):
+        #titolo=request.POST['titolo']
+        tmp=env.get_template('blogs_one.html')
+        #id=request.POST['id']
+        return tmp.render(pagina=Connect.body("", "sanpiero"), manifestazione="Blog", blogs=Connect.blogs_one("",titolo, id))
     @cherrypy.expose
     def sanpiero(self):
         tmpl = env.get_template('mytemplate.html')
@@ -131,10 +143,18 @@ class HelloWorld():
     
     
     @cherrypy.expose
-    def blog(self,*url_parts, **params):
+    def blog(self):
                 
-        tmp=env.get_template('blog.html')
-        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="blog", news=Connect.news(""), urlx="by Carlo Zanieri")
+        tmp=env.get_template('blogs.html')
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="blog", blogs=Connect.blog(""), urlx="by Carlo Zanieri", luogo = "blog")
+    
+    @cherrypy.expose
+    def blogs(self):
+                
+        tmp=env.get_template('blogs.html')
+        return tmp.render( pagina=Connect.body("", "sanpiero"), manifestazione="blog", blogs=Connect.blog(""), urlx="by Carlo Zanieri", luogo = "blog")
+    
+    
     
     @cherrypy.expose
     def upload_form(self, file, dir, tipo, titolo, descrizione, dirdb):
