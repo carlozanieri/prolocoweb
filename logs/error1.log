@@ -34959,3 +34959,18 @@ Request Headers:
 [11/May/2022:18:02:18] ENGINE Started monitor thread 'Autoreloader'.
 [11/May/2022:18:02:18] ENGINE Serving on http://0.0.0.0
 [11/May/2022:18:02:18] ENGINE Bus STARTED
+[11/May/2022:18:46:51] ENGINE Caught signal SIGTERM.
+[11/May/2022:18:46:51] ENGINE Bus STOPPING
+[11/May/2022:18:46:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[11/May/2022:18:46:52] ENGINE Stopped thread 'Autoreloader'.
+[11/May/2022:18:46:52] ENGINE Bus STOPPED
+[11/May/2022:18:46:52] ENGINE Bus EXITING
+[11/May/2022:18:46:52] ENGINE Bus EXITED
+[11/May/2022:18:46:52] ENGINE Waiting for child threads to terminate...
+[11/May/2022:18:47:13] ENGINE Listening for SIGTERM.
+[11/May/2022:18:47:13] ENGINE Listening for SIGHUP.
+[11/May/2022:18:47:13] ENGINE Listening for SIGUSR1.
+[11/May/2022:18:47:13] ENGINE Bus STARTING
+[11/May/2022:18:47:13] ENGINE Started monitor thread 'Autoreloader'.
+[11/May/2022:18:47:14] ENGINE Serving on http://0.0.0.0
+[11/May/2022:18:47:14] ENGINE Bus STARTED
