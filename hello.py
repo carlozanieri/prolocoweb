@@ -15,8 +15,8 @@ class HelloWorld():
         if cherrypy.url() == 'http://carlozanieri.it/?pagin=master':
             tmpl = env.get_template('mytemplate.html')
 
-            page= tmpl.render(blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
-        elif cherrypy.url() == 'http://blog.carlozanieri.it/?pagin=blog':
+            page= tmpl.render(pagin="master",blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
+        elif cherrypy.url() == 'http://carlozanieri.it/?pagin=blog':
             tmpl = env.get_template('mytemplate.html')
 
             page= tmpl.render(blogs=Connect.blog(""),pagin="blog", target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
