@@ -12,7 +12,7 @@ class HelloWorld():
     @cherrypy.expose
     def index(self,pagin):
         tmpl = env.get_template('mytemplate.html')
-        if cherrypy.url() == 'http://carlozanieri.it/':
+        if cherrypy.url() == 'http://carlozanieri.it/?pagin=master':
             tmpl = env.get_template('mytemplate.html')
 
             page= tmpl.render(blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
