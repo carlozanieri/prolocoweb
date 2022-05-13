@@ -61,7 +61,7 @@ class HelloWorld():
                 raisecherrypy.HTTPRedirect('/')# to cancel the action
                 link=Link(**value)
                 self.data[link.id]= link
-                raisecherrypy.HTTPRedirect('/submit')
+                raise cherrypy.HTTPRedirect('/submit')
         tmp=env.get_template('submit.html')
         streamValue=tmp.generate()
         return tmp.render(salutation='Hello', target='World')
