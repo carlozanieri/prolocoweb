@@ -12,16 +12,8 @@ class HelloWorld():
     @cherrypy.expose
     def index( self,pag, path=None):
         
-        if cherrypy.url() == 'http://carlozanieri.it/?pag=master':
-            tmpl = env.get_template('mytemplate.html')
-
-            page= tmpl.render(pag="master",blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")
-        elif cherrypy.url() == 'http://carlozanieri.it/?pag=blog':
-            tmpl = env.get_template('mytemplate.html')
-
-            page= tmpl.render(blogs=Connect.blog(""),pag="blog", target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "index"),  luogo = "index")   
-        
-        elif cherrypy.url() == 'http://blog.carlozanieri.it/':
+          
+        if cherrypy.url() == 'http://blog.carlozanieri.it/':
             tmpl = env.get_template('carlozanieriblog.html')
                 
         elif cherrypy.url() == 'http://web.carlozanieri.it/':
