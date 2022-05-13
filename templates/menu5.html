@@ -29,12 +29,14 @@
 							<li>
 								
 								<a href="{{ menus.link }}" class="gn-icon gn-icon-help">{{menus.titolo}}</a>
+								
 								<ul class="dl-submenu">
 									
 									{% for submenus in submenu %}
 									<li >
 											{% if menus.codice == submenus.radice %}
                         					<a href="{{submenus.link}}" ><span></span> {{submenus.titolo}}</a>
+											<input id="codice" name="codice" type="hidden" value={{submenus.codice}} />
 											{% endif %}
 									</li>
 									{% endfor %}

@@ -20,20 +20,20 @@
   .content { margin:50px auto; max-width:728px; line-height:1.7}
   </style>
 </head>
-{% include 'menu5.html' %}
+
 <body>
- 
+  
+    {% include 'menu5.html' %}
+  
    
- 
-    <nav class="slidernav">
-     
+      
       <div id="navbtns" class="clearfix">
         <a href="#" class="previous">prev</a>
         <a href="#" class="next">next</a>
       </div>
     </nav>
     
-    <div class="crsl-items" data-navigation="navbtns">
+    <div class="crsl-items" data-navigation="navbtns" style="position: relative; margin-top: -5%; z-index:1;">
       
       <div class="crsl-wrap">
        {% for blogss in blogs %}
@@ -64,8 +64,8 @@
       $(function(){
         $('.crsl-items').carousel({
           visible: 6,
-          itemMinWidth: 90,
-          itemEqualHeight: 170,
+          itemMaxWidth: 10,
+          itemEqualHeight: 100,
           itemMargin: 9,
         });
       

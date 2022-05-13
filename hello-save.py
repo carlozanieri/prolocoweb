@@ -10,7 +10,7 @@ from  Connect import Connect
 env = Environment(loader=FileSystemLoader('templates'))
 class HelloWorld():
     @cherrypy.expose
-    def index( self,pag, path=None):
+    def index( self,pag):
         
         if cherrypy.url() == 'http://carlozanieri.it/?pag=master':
             tmpl = env.get_template('mytemplate.html')
@@ -33,8 +33,9 @@ class HelloWorld():
             tmpl = env.get_template('mytemplate.html')
             page = tmpl.render( blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         elif cherrypy.url() == 'http://localhost/' :
-           tmpl = env.get_template('mytemplate.html')
-           page = tmpl.render(pag=pag,blogs=Connect.blog(""), target='World',  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+            tmpl = env.get_template('mytemplate.html')
+            
+            page = tmpl.render(pag=pag,blogs=Connect.blog(""), target='World',  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         
         elif cherrypy.url() == 'http://localhost/?pag=blog' :
             tmpl = env.get_template('mytemplate.html')
@@ -152,7 +153,7 @@ class HelloWorld():
         #tmp=env.get_template('mytemplate.html')
         #return tmp.render( pag="blog", pagina=Connect.body("", "sanpiero"), manifestazione="blog", blogs=Connect.blog(""), urlx="by Carlo Zanieri", luogo = "blog")
         if not path:
-          raise cherrypy.HTTPRedirect("/?pag=blog") 
+          raise cherrypy.HTTPRedirect("http://localhost/?pag=blog") 
         return path
     @cherrypy.expose
     def blogs(self):
