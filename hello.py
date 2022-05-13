@@ -33,7 +33,7 @@ class HelloWorld():
             par="blog"
             page = tmpl.render(pag="blog",blogs=Connect.blog(""), target='World',  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         
-        elif cherrypy.url() == 'carlozanieri.it/?pag=blog' :
+        elif cherrypy.url() == 'http://carlozanieri.it/?pag=blog' :
             tmpl = env.get_template('mytemplate.html')
             par="blog"
             page = tmpl.render(pag="blog",blogs=Connect.blog(""), target='World',  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
