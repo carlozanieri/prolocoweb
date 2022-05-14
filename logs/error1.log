@@ -37938,3 +37938,19 @@ Request Headers:
 [14/May/2022:16:44:14] ENGINE Started monitor thread 'Autoreloader'.
 [14/May/2022:16:44:14] ENGINE Serving on http://0.0.0.0
 [14/May/2022:16:44:14] ENGINE Bus STARTED
+[14/May/2022:16:58:35] ENGINE Restarting because /home/carlo/AreaComune/prolocoweb/hello.py changed.
+[14/May/2022:16:58:35] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2022:16:58:35] ENGINE Bus STOPPING
+[14/May/2022:16:58:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) shut down
+[14/May/2022:16:58:35] ENGINE Bus STOPPED
+[14/May/2022:16:58:35] ENGINE Bus EXITING
+[14/May/2022:16:58:35] ENGINE Bus EXITED
+[14/May/2022:16:58:35] ENGINE Waiting for child threads to terminate...
+[14/May/2022:16:58:35] ENGINE Re-spawning /usr/bin/python3 hello.py &
+[14/May/2022:16:58:37] ENGINE Listening for SIGTERM.
+[14/May/2022:16:58:37] ENGINE Listening for SIGHUP.
+[14/May/2022:16:58:37] ENGINE Listening for SIGUSR1.
+[14/May/2022:16:58:37] ENGINE Bus STARTING
+[14/May/2022:16:58:37] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2022:16:58:37] ENGINE Serving on http://0.0.0.0
+[14/May/2022:16:58:37] ENGINE Bus STARTED
