@@ -10,7 +10,7 @@ from  Connect import Connect
 env = Environment(loader=FileSystemLoader('templates'))
 class HelloWorld():
     @cherrypy.expose
-    def index( self,pag, path=None):
+    def index(self, **kwargs):
         
           
         if cherrypy.url() == 'http://blog.carlozanieri.it/':
@@ -26,7 +26,11 @@ class HelloWorld():
             page = tmpl.render( blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         elif cherrypy.url() == 'http://localhost/' :
            tmpl = env.get_template('mytemplate.html')
-           page = tmpl.render(pag=pag,blogs=Connect.blog(""), target='World',  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
+           if kwargs :
+               pag = kwargs['pag']
+           else :
+               pag="master"
+           page = tmpl.render(pag=pag,blogs=Connect.blog(""), target=kwargs,  manifestazione="blog", menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "mugello"),  luogo = "mugello", urlx=cherrypy.url())
         
         
             
@@ -37,7 +41,7 @@ class HelloWorld():
         else:
             tmpl = env.get_template('mytemplate.html')
             pag="blog"
-            page = tmpl.render(pag="master",blogs=Connect.blog(""), target='World',  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "sanpiero"),  luogo = "sanpiero", news=Connect.news(""),urlx=cherrypy.url())
+            page = tmpl.render(pag="master",blogs=Connect.blog(""), target=kwargs,  menu=Connect.menu(""), submenu=Connect.submnu(""),pagina=Connect.body("", "sanpiero"),  luogo = "sanpiero", news=Connect.news(""),urlx=cherrypy.url())
                  
 
         return page
@@ -137,7 +141,10 @@ class HelloWorld():
         #tmp=env.get_template('mytemplate.html')
         #return tmp.render( pag="blog", pagina=Connect.body("", "sanpiero"), manifestazione="blog", blogs=Connect.blog(""), urlx="by Carlo Zanieri", luogo = "blog")
         if not path:
-          raise cherrypy.HTTPRedirect("/?pag=blog") 
+          raise cherrypy.HTTPRedirect("/?pag=blog")
+        else :
+            tmp=env.get_template('blog.html')
+            path = tmp.render( pag="blog", pagina=Connect.body("", "sanpiero"), manifestazione="blog", blogs=Connect.blog(""), urlx="by Carlo Zanieri", luogo = "blog") 
         return path
     @cherrypy.expose
     def blogs(self):
